@@ -50,6 +50,9 @@ header.top p{margin:10px 0 0;color:var(--muted);max-width:64ch;font-size:17px}
 .aviso a{font-weight:600;white-space:nowrap;color:var(--red)}
 
 main{padding-block:18px 8px;display:flex;flex-direction:column;gap:14px}
+main .wrap{min-width:0;width:100%}
+main .wrap>*{min-width:0;max-width:100%}
+main{overflow-x:clip}
 .tabs{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface);align-self:flex-start;max-width:100%}
 .tabs button{border:0;background:transparent;padding:10px 16px;cursor:pointer;font-family:var(--f-head);font-weight:700;font-size:15px}
 .tabs button+button{border-left:1px solid var(--line)}
