@@ -19,7 +19,9 @@ from html.parser import HTMLParser
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-URL = "https://donarsangre.sanidadmadrid.org/moviles.aspx"
+BASE = "https://donarsangre.sanidadmadrid.org"
+URL = BASE + "/moviles.aspx"
+FIJOS_URL = BASE + "/fijos.aspx"
 PREFIX = "ctl00$ContenedorContenidoSeccion$"
 UA = "donar-sangre-madrid/1.0 (https://github.com; mapa de puntos de donacion)"
 MAX_AGE_DAYS = 7  # descarta filas con fecha anterior a hace una semana
@@ -78,6 +80,156 @@ def fetch_rows():
     r.raise_for_status()
     _, rows = parse(r.text)
     return rows
+
+
+# ---------- centros fijos (hospitales) ----------
+class _Texto(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.lineas = []
+        self._skip = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style"):
+            self._skip += 1
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style") and self._skip:
+            self._skip -= 1
+
+    def handle_data(self, data):
+        if not self._skip:
+            t = re.sub(r"\s+", " ", data).strip()
+            if t:
+                self.lineas.append(t)
+
+
+ETIQUETAS = {
+    "Horario de donaciones:": "horario",
+    "Ubicación de las salas de donación:": "sala",
+    "Observaciones:": "observaciones",
+    "Información al donante:": "telefono",
+    "Dirección postal:": "direccion",
+    "Municipio:": "municipio",
+    "Código postal:": "cp",
+    "Información general:": "_general",
+    "Código de centro:": "_codigo",
+}
+
+
+def parse_detalle(html):
+    p = _Texto()
+    p.feed(html)
+    L = p.lineas
+    rec = {"nombre": ""}
+    if "Detalle del centro" in L:
+        rec["nombre"] = L[L.index("Detalle del centro") + 1]
+    for i, linea in enumerate(L):
+        if linea in ETIQUETAS:
+            val = []
+            for t in L[i + 1:]:
+                if t in ETIQUETAS or t.lower().startswith("volver"):
+                    break
+                val.append(t)
+            rec[ETIQUETAS[linea]] = " ".join(val)
+    return {k: v for k, v in rec.items() if not k.startswith("_")}
+
+
+def fetch_fijos():
+    import requests
+
+    s = requests.Session()
+    s.headers["User-Agent"] = UA
+    r = s.get(FIJOS_URL, timeout=60)
+    r.raise_for_status()
+    fields, _ = parse(r.text)
+    fields[PREFIX + "cbxMunicipio"] = "0"
+    fields[PREFIX + "btnBuscar"] = "Buscar"
+    r = s.post(FIJOS_URL, data=fields, timeout=60)
+    r.raise_for_status()
+    ids = list(dict.fromkeys(re.findall(r"detalleCentros\.aspx\?ID=(\d+)", r.text)))
+    out = []
+    for i in ids:
+        d = s.get(f"{BASE}/detalleCentros.aspx?ID={i}", timeout=60)
+        d.raise_for_status()
+        rec = parse_detalle(d.text)
+        rec["id"] = i
+        out.append(rec)
+        time.sleep(0.3)
+    return out
+
+
+PEQUENAS = {"de", "del", "la", "las", "los", "y", "el", "en", "a"}
+
+
+ACENTOS = {"alcala": "Alcalá", "catolicos": "Católicos", "cordoba": "Córdoba", "leon": "León", "martin": "Martín",
+           "menendez": "Menéndez", "jucar": "Júcar", "rio": "Río", "gran": "Gran", "via": "Vía", "mostoles": "Móstoles"}
+
+
+def bonito_titulo(t):
+    if not t.isupper():
+        return t
+    out = []
+    for i, w in enumerate(t.lower().split()):
+        if i and w in PEQUENAS:
+            out.append(w)
+            continue
+        m = re.match(r"^(\W*)(.*?)(\W*)$", w)
+        ini, cuerpo, fin = m.groups()
+        partes = [ACENTOS.get(x, x[:1].upper() + x[1:]) for x in cuerpo.split("-")]
+        out.append(ini + "-".join(partes) + fin)
+    return " ".join(out)
+
+
+def build_fijos(records, online=True):
+    seeds = load("fijos_coords.json", {})
+    cache = load("coords_cache.json", {})
+    extra = load("fijos_extra.json", [])
+    out = []
+    for r in records:
+        rid = str(r.get("id", ""))
+        sd = seeds.get(rid)
+        muni = r.get("municipio", "")
+        direccion = bonito_titulo(re.sub(r"\s+", " ", r.get("direccion", "")).strip())
+        horario = re.sub(r"\s+", " ", r.get("horario", "")).strip()
+        tel = re.sub(r"^\s*(tfno\.?|tel[eé]fono)\s*:?\s*", "", r.get("telefono", ""), flags=re.I).strip()
+        if sd:
+            lat, lon, prec = sd["lat"], sd["lon"], "verificada"
+            nombre = sd.get("nombre") or bonito_titulo(r.get("nombre", ""))
+        else:
+            nombre = bonito_titulo(r.get("nombre", ""))
+            key = f"fijo|{rid}"
+            if key not in cache and online:
+                try:
+                    res = nominatim(f"{direccion}, {muni}, {r.get('cp', '')}, España")
+                    tipo = "direccion"
+                    if not res:
+                        res = nominatim(f"{nombre}, {muni}, España")
+                        tipo = "nombre"
+                    if res:
+                        cache[key] = {"lat": res[0], "lon": res[1], "precision": tipo}
+                except Exception as e:
+                    print(f"  aviso: no se pudo geocodificar {nombre}: {e}", file=sys.stderr)
+            c = cache.get(key)
+            lat, lon, prec = (c["lat"], c["lon"], c["precision"]) if c else (None, None, "sin_ubicacion")
+        out.append({
+            "id": rid,
+            "nombre": nombre,
+            "municipio": muni,
+            "direccion": direccion,
+            "cp": r.get("cp", ""),
+            "telefono": tel,
+            "horario": horario,
+            "sala": re.sub(r"\s+", " ", r.get("sala", "")).strip(),
+            "observaciones": re.sub(r"\s+", " ", r.get("observaciones", "")).strip(),
+            "estado": "cerrado" if re.match(r"^(provisionalmente )?cerrad[oa]", horario, re.I) else "abierto",
+            "lat": lat,
+            "lon": lon,
+            "precision": prec,
+            "origen": "oficial",
+        })
+    out.sort(key=lambda e: (e["municipio"], e["nombre"]))
+    return out + extra, cache
 
 
 # ---------- normalización ----------
@@ -234,6 +386,7 @@ def build(rows, online=True, hoy=None):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--offline", help="JSON con filas [municipio, lugar, dirección, fecha, horario]")
+    ap.add_argument("--offline-fijos", help="JSON con registros de centros fijos (pruebas)")
     ap.add_argument("--hoy", help="fecha simulada AAAA-MM-DD (pruebas)")
     args = ap.parse_args()
 
@@ -261,6 +414,29 @@ def main():
         }
         salida.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         print(f"{len(entradas)} entradas escritas en {salida}")
+    # centros fijos: si falla la lectura, se conservan los datos anteriores
+    try:
+        if args.offline_fijos:
+            recs = json.loads(pathlib.Path(args.offline_fijos).read_text(encoding="utf-8"))
+        elif args.offline:
+            recs = None
+        else:
+            recs = fetch_fijos()
+        if recs:
+            fijos, cache = build_fijos(recs, online=not (args.offline or args.offline_fijos))
+            prev = load("fijos.json", {})
+            if prev.get("entradas") == fijos:
+                print("Centros fijos: sin cambios.")
+            else:
+                doc = {
+                    "actualizado": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                    "fuente": FIJOS_URL,
+                    "entradas": fijos,
+                }
+                (DATA / "fijos.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+                print(f"{len(fijos)} centros fijos escritos.")
+    except Exception as e:
+        print(f"aviso: no se pudieron actualizar los centros fijos: {e}", file=sys.stderr)
     (DATA / "coords_cache.json").write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     sin = [e for e in entradas if e["lat"] is None]
     if sin:

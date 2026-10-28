@@ -3,6 +3,7 @@ name: Actualizar puntos de donación
 on:
   schedule:
     - cron: "17 5 * * *"   # todos los días, 05:17 UTC
+    - cron: "47 11 * * *"  # segunda pasada, 11:47 UTC
   workflow_dispatch: {}      # también se puede lanzar a mano desde la pestaña Actions
 
 permissions:
