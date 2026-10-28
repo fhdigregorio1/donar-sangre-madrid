@@ -107,6 +107,11 @@ main{overflow-x:clip}
 .tag.cl{color:var(--red);border-color:var(--red)}
 .dates{display:flex;flex-wrap:wrap;gap:4px;margin-top:3px}
 .dates i{font-style:normal;font-size:13px;background:var(--red-soft);border-radius:4px;padding:0 7px;font-variant-numeric:tabular-nums}
+.sec{font-family:var(--f-head);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding:8px 2px 0}
+.leg{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0;font-size:14px}
+.leg span{display:inline-flex;align-items:center;gap:7px}
+.sw{width:12px;height:12px;border-radius:50%;display:inline-block}
+.sw.m{background:var(--pin)}.sw.f{background:var(--pin2)}
 .empty{padding:18px;border:1px dashed var(--line);border-radius:8px;color:var(--muted)}
 
 section.antes{background:var(--surface);border-block:1px solid var(--line);margin-top:20px}
@@ -154,10 +159,12 @@ footer a{color:inherit}
   <div class="tabs" role="group" aria-label="Tipo de punto">
     <button type="button" id="tabM" aria-pressed="true">Unidades móviles</button>
     <button type="button" id="tabF" aria-pressed="false">Centros fijos</button>
+    <button type="button" id="tabA" aria-pressed="false">Ambos</button>
   </div>
 
   <div class="days" id="days" role="group" aria-label="Día de donación"></div>
   <p class="nota" id="nota" hidden></p>
+  <p class="leg" id="leg" hidden><span><i class="sw m"></i>Unidades móviles (por día)</span><span><i class="sw f"></i>Centros fijos</span></p>
 
   <div class="bar">
     <span id="summary" aria-live="polite">Cargando puntos…</span>
@@ -209,7 +216,7 @@ footer a{color:inherit}
   var movil=[],fijos=[],DAYS=[],markers={},activeId=null;
   var state={vista:'moviles',day:'',mun:'',me:null};
   var $=function(id){return document.getElementById(id);};
-  var daysEl=$('days'),munEl=$('mun'),listEl=$('list'),sumEl=$('summary'),nearBtn=$('near'),notaEl=$('nota'),tabM=$('tabM'),tabF=$('tabF');
+  var daysEl=$('days'),munEl=$('mun'),listEl=$('list'),sumEl=$('summary'),nearBtn=$('near'),notaEl=$('nota'),tabM=$('tabM'),tabF=$('tabF'),tabA=$('tabA'),legEl=$('leg');
 
   var map=L.map('map',{center:[40.42,-3.70],zoom:10,minZoom:7,maxZoom:18});
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
@@ -228,7 +235,7 @@ footer a{color:inherit}
   function countFor(k){return movil.filter(function(p){return p.f.some(function(x){return x.d===k;});}).length;}
 
   function buildDays(){
-    if(state.vista!=='moviles'){daysEl.innerHTML='';daysEl.hidden=true;return;}
+    if(state.vista==='fijos'){daysEl.innerHTML='';daysEl.hidden=true;return;}
     daysEl.hidden=false;
     var h='<button class="day all" data-d="todos" aria-pressed="'+(state.day==='todos')+'"><span class="wd">Todos</span><span class="dn">Días</span><span class="ct">'+movil.length+' puntos</span></button>';
     DAYS.forEach(function(k){
@@ -238,7 +245,7 @@ footer a{color:inherit}
     daysEl.innerHTML=h;
   }
   function fillMun(){
-    var src=state.vista==='moviles'?movil:fijos,cur=state.mun;
+    var src=state.vista==='moviles'?movil:state.vista==='fijos'?fijos:movil.concat(fijos),cur=state.mun;
     var names=Array.from(new Set(src.map(function(p){return p.mun||p.municipio;}))).sort(function(a,b){return a.localeCompare(b,'es');});
     munEl.innerHTML='<option value="">Todos</option>'+names.map(function(m){return '<option value="'+esc(m)+'">'+esc(m)+'</option>';}).join('');
     if(names.indexOf(cur)<0)state.mun='';
@@ -290,40 +297,54 @@ footer a{color:inherit}
   function pushUrl(){
     try{
       var u=new URLSearchParams();
-      if(state.vista==='fijos')u.set('vista','fijos');
-      else if(state.day&&state.day!==todayKey&&state.day!==DAYS[0])u.set('dia',state.day);
+      if(state.vista!=='moviles')u.set('vista',state.vista);
+      if(state.vista!=='fijos'&&state.day&&state.day!==todayKey&&state.day!==DAYS[0])u.set('dia',state.day);
       if(state.mun)u.set('mun',state.mun);
       var s=u.toString();history.replaceState(null,'',location.pathname+(s?'?'+s:''));
     }catch(e){}
   }
 
+  function movList(){
+    var vs=visibleMoviles();
+    if(state.me)vs.forEach(function(v){v.d=v.p.lat!=null?km(state.me,[v.p.lat,v.p.lon]):1e9;});
+    vs.sort(function(a,b){
+      if(state.me)return a.d-b.d;
+      if(state.day==='todos')return a.p.mun.localeCompare(b.p.mun,'es')||a.p.lugar.localeCompare(b.p.lugar,'es');
+      return (a.fs[0].h[0]||'99').localeCompare(b.fs[0].h[0]||'99')||a.p.mun.localeCompare(b.p.mun,'es');
+    });
+    return vs;
+  }
+  function fijList(){
+    var fs=fijos.filter(function(f){return !state.mun||f.municipio===state.mun;});
+    if(state.me)fs.forEach(function(f){f.d=f.lat!=null?km(state.me,[f.lat,f.lon]):1e9;});
+    fs.sort(function(a,b){
+      if(state.me)return a.d-b.d;
+      return a.municipio.localeCompare(b.municipio,'es')||a.nombre.localeCompare(b.nombre,'es');
+    });
+    return fs;
+  }
+  function addMarker(key,lat,lon,icon,title,pop,pts){
+    var m=L.marker([lat,lon],{icon:icon,title:title,keyboard:true,riseOnHover:true});
+    m.bindPopup(pop,{autoPanPadding:[30,60]});
+    m.on('click',function(){setActive(key);var it=listEl.querySelector('[data-id="'+key+'"]');if(it&&it.scrollIntoView)it.scrollIntoView({block:'nearest',behavior:'smooth'});});
+    m.on('popupclose',function(){if(activeId===key)setActive(null);});
+    m.addTo(layer);markers[key]=m;pts.push([lat,lon]);
+  }
+
   function render(fit){
-    tabM.setAttribute('aria-pressed',state.vista==='moviles');
-    tabF.setAttribute('aria-pressed',state.vista==='fijos');
+    var V=state.vista,showM=V!=='fijos',showF=V!=='moviles';
+    tabM.setAttribute('aria-pressed',V==='moviles');
+    tabF.setAttribute('aria-pressed',V==='fijos');
+    tabA.setAttribute('aria-pressed',V==='ambos');
     buildDays();
     layer.clearLayers();markers={};
-    var rows=[],html='',pts=[];
+    var html='',pts=[],vs=[],fs=[];
 
-    if(state.vista==='moviles'){
-      var vs=visibleMoviles();
-      if(state.me)vs.forEach(function(v){v.d=v.p.lat!=null?km(state.me,[v.p.lat,v.p.lon]):1e9;});
-      vs.sort(function(a,b){
-        if(state.me)return a.d-b.d;
-        if(state.day==='todos')return a.p.mun.localeCompare(b.p.mun,'es')||a.p.lugar.localeCompare(b.p.lugar,'es');
-        return (a.fs[0].h[0]||'99').localeCompare(b.fs[0].h[0]||'99')||a.p.mun.localeCompare(b.p.mun,'es');
-      });
-      sumEl.textContent=vs.length+(vs.length===1?' unidad móvil':' unidades móviles')+' · '+(state.day==='todos'?'todos los días':longDate(state.day));
-      notaEl.hidden=!(DAYS.length<=3);
-      notaEl.textContent='Sanidad publica solo la semana en curso. Los días siguientes aparecerán cuando los publique.';
+    if(showM){
+      vs=movList();
       vs.forEach(function(v){
-        var p=v.p,n=state.day==='todos'?v.fs.length:1,pin=p.lat!=null;
-        if(pin){
-          var m=L.marker([p.lat,p.lon],{icon:pinMovil(n),title:p.lugar,keyboard:true,riseOnHover:true});
-          m.bindPopup(popMovil(v),{autoPanPadding:[30,60]});
-          m.on('click',function(){setActive(p.id);var it=listEl.querySelector('[data-id="'+p.id+'"]');if(it&&it.scrollIntoView)it.scrollIntoView({block:'nearest',behavior:'smooth'});});
-          m.on('popupclose',function(){if(activeId===p.id)setActive(null);});
-          m.addTo(layer);markers[p.id]=m;pts.push([p.lat,p.lon]);
-        }
+        var p=v.p,n=state.day==='todos'?v.fs.length:1,pin=p.lat!=null,key='m'+p.id;
+        if(pin)addMarker(key,p.lat,p.lon,pinMovil(n),p.lugar,popMovil(v),pts);
         var tag=p.tipo==='M'?'':'<span class="tag">'+(p.tipo==='S'?'Sala':'Sala + furgoneta')+'</span>';
         var left,extra='';
         if(state.day==='todos'){
@@ -332,35 +353,30 @@ footer a{color:inherit}
         }else left='<div class="hr">'+v.fs[0].h.map(function(h){return '<span>'+h+'</span>';}).join('')+'</div>';
         var dist=state.me&&pin?' · a '+fmtKm(v.d):'';
         var sin=pin?'':'<div class="ad">Sin posición en el mapa.</div>';
-        html+='<li><button class="item'+(pin?'':' nopin')+'" data-id="'+p.id+'">'+left+'<div class="nm">'+esc(p.lugar)+tag+'</div><div class="ad">'+esc(p.mun)+' · '+esc(p.dir)+dist+'</div>'+extra+sin+'</button></li>';
+        html+='<li><button class="item'+(pin?'':' nopin')+'" data-id="'+key+'">'+left+'<div class="nm">'+esc(p.lugar)+tag+'</div><div class="ad">'+esc(p.mun)+' · '+esc(p.dir)+dist+'</div>'+extra+sin+'</button></li>';
       });
-      rows=vs;
-    }else{
-      var fs=fijos.filter(function(f){return !state.mun||f.municipio===state.mun;});
-      if(state.me)fs.forEach(function(f){f.d=f.lat!=null?km(state.me,[f.lat,f.lon]):1e9;});
-      fs.sort(function(a,b){
-        if(state.me)return a.d-b.d;
-        return a.municipio.localeCompare(b.municipio,'es')||a.nombre.localeCompare(b.nombre,'es');
-      });
-      var abiertos=fs.filter(function(f){return f.estado!=='cerrado';}).length;
-      sumEl.textContent=fs.length+(fs.length===1?' centro':' centros')+' · '+abiertos+(abiertos===1?' abierto':' abiertos');
-      notaEl.hidden=false;
-      notaEl.textContent='Horarios tal como los publica el Centro de Transfusión. Confirma por teléfono antes de ir.';
+    }
+    if(showF){
+      fs=fijList();
+      if(V==='ambos'&&fs.length)html+='<li class="sec">Centros fijos</li>';
       fs.forEach(function(f){
-        var pin=f.lat!=null,closed=f.estado==='cerrado';
-        if(pin){
-          var m=L.marker([f.lat,f.lon],{icon:pinFijo(closed),title:f.nombre,keyboard:true,riseOnHover:true});
-          m.bindPopup(popFijo(f),{autoPanPadding:[30,60]});
-          m.on('click',function(){setActive(f.id);var it=listEl.querySelector('[data-id="'+f.id+'"]');if(it&&it.scrollIntoView)it.scrollIntoView({block:'nearest',behavior:'smooth'});});
-          m.on('popupclose',function(){if(activeId===f.id)setActive(null);});
-          m.addTo(layer);markers[f.id]=m;pts.push([f.lat,f.lon]);
-        }
+        var pin=f.lat!=null,closed=f.estado==='cerrado',key='f'+f.id;
+        if(pin)addMarker(key,f.lat,f.lon,pinFijo(closed),f.nombre,popFijo(f),pts);
         var dist=state.me&&pin?' · a '+fmtKm(f.d):'';
         var tag=closed?'<span class="tag cl">Cerrado</span>':(f.origen==='complementario'?'<span class="tag">Horario orientativo</span>':'');
-        html+='<li><button class="item fijo'+(closed?' cerrado':'')+(pin?'':' nopin')+'" data-id="'+esc(f.id)+'"><div class="nm">'+esc(f.nombre)+tag+'</div><div class="ad">'+esc(f.municipio)+' · '+esc(f.direccion)+dist+'</div><div class="ho">'+esc(f.horario)+'</div>'+(f.telefono?'<div class="tf">Tel. '+esc(f.telefono)+'</div>':'')+'</button></li>';
+        html+='<li><button class="item fijo'+(closed?' cerrado':'')+(pin?'':' nopin')+'" data-id="'+esc(key)+'"><div class="nm">'+esc(f.nombre)+tag+'</div><div class="ad">'+esc(f.municipio)+' · '+esc(f.direccion)+dist+'</div><div class="ho">'+esc(f.horario)+'</div>'+(f.telefono?'<div class="tf">Tel. '+esc(f.telefono)+'</div>':'')+'</button></li>';
       });
-      rows=fs;
     }
+    if(V==='ambos'&&vs.length){html='<li class="sec">Unidades móviles · '+(state.day==='todos'?'todos los días':longDate(state.day))+'</li>'+html;}
+
+    var mTxt=vs.length+(vs.length===1?' unidad móvil':' unidades móviles'),
+        abiertos=fs.filter(function(f){return f.estado!=='cerrado';}).length,
+        fTxt=fs.length+(fs.length===1?' centro fijo':' centros fijos');
+    sumEl.textContent=V==='moviles'?mTxt+' · '+(state.day==='todos'?'todos los días':longDate(state.day)):V==='fijos'?fTxt+' · '+abiertos+(abiertos===1?' abierto':' abiertos'):mTxt+' + '+fTxt;
+    legEl.hidden=V!=='ambos';
+    if(V==='fijos'){notaEl.hidden=false;notaEl.textContent='Horarios tal como los publica el Centro de Transfusión. Confirma por teléfono antes de ir.';}
+    else if(showM&&DAYS.length<=3){notaEl.hidden=false;notaEl.textContent='Sanidad publica solo la semana en curso. Los días siguientes aparecerán cuando los publique.';}
+    else notaEl.hidden=true;
     listEl.innerHTML=html||'<li class="empty">No hay puntos para esta selección.</li>';
 
     if(fit&&pts.length){
@@ -377,6 +393,7 @@ footer a{color:inherit}
   }
   tabM.addEventListener('click',function(){setVista('moviles');});
   tabF.addEventListener('click',function(){setVista('fijos');});
+  tabA.addEventListener('click',function(){setVista('ambos');});
   daysEl.addEventListener('click',function(e){var b=e.target.closest('.day');if(!b)return;state.day=b.getAttribute('data-d');render(true);});
   munEl.addEventListener('change',function(){state.mun=munEl.value;render(true);});
   listEl.addEventListener('click',function(e){
@@ -397,7 +414,7 @@ footer a{color:inherit}
       L.marker(state.me,{icon:L.divIcon({className:'',html:'<div class="me"></div>',iconSize:[16,16],iconAnchor:[8,8]}),interactive:false,keyboard:false}).addTo(meLayer);
       nearBtn.textContent='Cerca de mí';nearBtn.setAttribute('aria-pressed','true');
       render(false);
-      var cand=(state.vista==='moviles'?visibleMoviles().map(function(x){return x.p;}):fijos.filter(function(f){return !state.mun||f.municipio===state.mun;})).filter(function(x){return x.lat!=null;});
+      var cand=(state.vista!=='fijos'?visibleMoviles().map(function(x){return x.p;}):[]).concat(state.vista!=='moviles'?fijos.filter(function(f){return !state.mun||f.municipio===state.mun;}):[]).filter(function(x){return x.lat!=null;});
       cand.sort(function(a,b){return km(state.me,[a.lat,a.lon])-km(state.me,[b.lat,b.lon]);});
       var pts=cand.slice(0,3).map(function(x){return [x.lat,x.lon];});pts.push(state.me);
       if(cand.length)map.fitBounds(L.latLngBounds(pts),{padding:[50,50],maxZoom:15});
@@ -420,10 +437,10 @@ footer a{color:inherit}
     movil=groupMoviles(entries);
     DAYS=Array.from(new Set(entries.map(function(e){return e.fecha;}))).sort();
     fijos=(fd&&fd.entradas)||[];
-    if(!fijos.length)tabF.hidden=true;
+    if(!fijos.length){tabF.hidden=true;tabA.hidden=true;}
 
     var q=new URLSearchParams(location.search),dq=q.get('dia'),mq=q.get('mun');
-    if(q.get('vista')==='fijos'&&fijos.length)state.vista='fijos';
+    var vq=q.get('vista');if((vq==='fijos'||vq==='ambos')&&fijos.length)state.vista=vq;
     state.day=(dq==='todos'||DAYS.indexOf(dq)>=0)?dq:(DAYS.indexOf(todayKey)>=0?todayKey:(DAYS[0]||'todos'));
     fillMun();
     if(mq){var ok=Array.prototype.some.call(munEl.options,function(o){return o.value===mq;});if(ok){state.mun=mq;munEl.value=mq;}}
