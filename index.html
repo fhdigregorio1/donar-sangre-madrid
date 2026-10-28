@@ -53,6 +53,7 @@ main{padding-block:18px 8px;display:flex;flex-direction:column;gap:14px}
 main .wrap{min-width:0;width:100%}
 main .wrap>*{min-width:0;max-width:100%}
 main{overflow-x:clip}
+.tabs[hidden]{display:none}
 .tabs{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface);align-self:flex-start;max-width:100%}
 .tabs button{border:0;background:transparent;padding:10px 16px;cursor:pointer;font-family:var(--f-head);font-weight:700;font-size:15px}
 .tabs button+button{border-left:1px solid var(--line)}
@@ -156,7 +157,7 @@ footer a{color:inherit}
 </div></div>
 
 <main class="gut"><div class="wrap" style="display:flex;flex-direction:column;gap:14px">
-  <div class="tabs" role="group" aria-label="Tipo de punto">
+  <div class="tabs" hidden role="group" aria-label="Tipo de punto">
     <button type="button" id="tabM" aria-pressed="true">Unidades móviles</button>
     <button type="button" id="tabF" aria-pressed="false">Centros fijos</button>
     <button type="button" id="tabA" aria-pressed="false">Ambos</button>
@@ -214,7 +215,7 @@ footer a{color:inherit}
 
   var todayKey=isoOf(new Date());
   var movil=[],fijos=[],DAYS=[],markers={},activeId=null;
-  var state={vista:'moviles',day:'',mun:'',me:null};
+  var state={vista:'ambos',day:'',mun:'',me:null};
   var $=function(id){return document.getElementById(id);};
   var daysEl=$('days'),munEl=$('mun'),listEl=$('list'),sumEl=$('summary'),nearBtn=$('near'),notaEl=$('nota'),tabM=$('tabM'),tabF=$('tabF'),tabA=$('tabA'),legEl=$('leg');
 
@@ -297,8 +298,7 @@ footer a{color:inherit}
   function pushUrl(){
     try{
       var u=new URLSearchParams();
-      if(state.vista!=='moviles')u.set('vista',state.vista);
-      if(state.vista!=='fijos'&&state.day&&state.day!==todayKey&&state.day!==DAYS[0])u.set('dia',state.day);
+      if(state.day&&state.day!==todayKey&&state.day!==DAYS[0])u.set('dia',state.day);
       if(state.mun)u.set('mun',state.mun);
       var s=u.toString();history.replaceState(null,'',location.pathname+(s?'?'+s:''));
     }catch(e){}
@@ -440,7 +440,7 @@ footer a{color:inherit}
     if(!fijos.length){tabF.hidden=true;tabA.hidden=true;}
 
     var q=new URLSearchParams(location.search),dq=q.get('dia'),mq=q.get('mun');
-    var vq=q.get('vista');if((vq==='fijos'||vq==='ambos')&&fijos.length)state.vista=vq;
+    if(!fijos.length)state.vista='moviles';
     state.day=(dq==='todos'||DAYS.indexOf(dq)>=0)?dq:(DAYS.indexOf(todayKey)>=0?todayKey:(DAYS[0]||'todos'));
     fillMun();
     if(mq){var ok=Array.prototype.some.call(munEl.options,function(o){return o.value===mq;});if(ok){state.mun=mq;munEl.value=mq;}}
