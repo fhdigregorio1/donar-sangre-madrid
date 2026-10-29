@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T12:42:01+00:00",
+ "actualizado": "2026-10-29T11:34:56+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -48,22 +48,6 @@
    ],
    "lat": 40.4626,
    "lon": -3.6889,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-10-28",
-   "municipio": "Madrid",
-   "lugar": "Francos Rodríguez",
-   "direccion": "C/ Francos Rodríguez, 64",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4569,
-   "lon": -3.7084,
    "precision": "verificada"
   },
   {
@@ -984,22 +968,6 @@
    ],
    "lat": 40.4973,
    "lon": -3.7045,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Alcorcón",
-   "lugar": "CES Juan Pablo II FP",
-   "direccion": "C/ Estocolmo, 1",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.3522,
-   "lon": -3.8319,
    "precision": "verificada"
   },
   {

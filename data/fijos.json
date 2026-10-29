@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T13:53:34+00:00",
+ "actualizado": "2026-10-29T11:35:16+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/fijos.aspx",
  "entradas": [
   {
@@ -187,7 +187,7 @@
    "telefono": "91 330 34 21",
    "horario": "Lunes a sábado de 8:30 a 20:30, domingos y festivos de 8:30 a 14 h.",
    "sala": "1ª planta-Ala Sur",
-   "observaciones": "Parking gratuito a donantes junto Puerta I con autorización Control Seguridad",
+   "observaciones": "Parking gratuito a donantes junto a Puerta I con autorización Control Seguridad",
    "estado": "abierto",
    "lat": 40.4414,
    "lon": -3.7206,
@@ -441,7 +441,7 @@
    "direccion": "Calle Mateo Inurria, 0",
    "cp": "28850",
    "telefono": "91 626 26 00 ext. 5716",
-   "horario": "Lunes, miércoles y viernes de 9:30 a 21 h.Cerrado miércoles día 21 de octubre.",
+   "horario": "Lunes, miércoles y viernes de 9:30 a 21 h.abierto jueves 29 de octubre de 9:30 a 21 h",
    "sala": "Planta baja.",
    "observaciones": "Parking gratuito para donantes. Convalidar ticket en sala donación",
    "estado": "abierto",
