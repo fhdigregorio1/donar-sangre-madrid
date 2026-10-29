@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T11:34:56+00:00",
+ "actualizado": "2026-10-29T17:35:36+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -697,8 +697,8 @@
   {
    "fecha": "2026-11-02",
    "municipio": "Soto del Real",
-   "lugar": "Av. Chozas",
-   "direccion": "Av. Chozas esq. C/ Concejo",
+   "lugar": "Soto Del Real",
+   "direccion": "AV. Don Bosco, aparcamiento trasero Colegio Salesianos El Pilar",
    "tipo": "M",
    "horarios": [
     [
@@ -706,9 +706,9 @@
      "13:30"
     ]
    ],
-   "lat": 40.753,
-   "lon": -3.7855,
-   "precision": "verificada"
+   "lat": 40.7533621,
+   "lon": -3.7868456,
+   "precision": "municipio"
   },
   {
    "fecha": "2026-11-02",
