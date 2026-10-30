@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T11:27:03+00:00",
+ "actualizado": "2026-10-30T17:16:07+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -433,6 +433,22 @@
   {
    "fecha": "2026-11-02",
    "municipio": "Madrid",
+   "lugar": "Glorieta de Bilbao (Fuencarral)",
+   "direccion": "C/ Fuencarral, 121",
+   "tipo": "M",
+   "horarios": [
+    [
+     "09:45",
+     "14:15"
+    ]
+   ],
+   "lat": 40.4305,
+   "lon": -3.7033,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-02",
+   "municipio": "Madrid",
    "lugar": "Gran Vía (Red de San Luis)",
    "direccion": "C/ Gran Vía esq. C/ Montera",
    "tipo": "M",
@@ -461,22 +477,6 @@
    "lat": 40.7533621,
    "lon": -3.7868456,
    "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-02",
-   "municipio": "Villarejo de Salvanés",
-   "lugar": "Castillo",
-   "direccion": "C/ San José, junto al Castillo",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:30",
-     "13:30"
-    ]
-   ],
-   "lat": 40.1678,
-   "lon": -3.2745,
-   "precision": "verificada"
   },
   {
    "fecha": "2026-11-03",
