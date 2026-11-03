@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T12:50:59+00:00",
+ "actualizado": "2026-11-03T18:40:15+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -509,8 +509,8 @@
   {
    "fecha": "2026-11-06",
    "municipio": "Navalcarnero",
-   "lugar": "El Pinar",
-   "direccion": "C/ Labrador, 26",
+   "lugar": "Navalcarnero- El Pinar",
+   "direccion": "Plaza Segovia",
    "tipo": "M",
    "horarios": [
     [
@@ -518,9 +518,9 @@
      "20:45"
     ]
    ],
-   "lat": 40.2999,
-   "lon": -3.9787,
-   "precision": "verificada"
+   "lat": 40.2876685,
+   "lon": -4.0142827,
+   "precision": "direccion"
   },
   {
    "fecha": "2026-11-06",
@@ -637,8 +637,8 @@
   {
    "fecha": "2026-11-07",
    "municipio": "Navalcarnero",
-   "lugar": "El Pinar",
-   "direccion": "C/ Labrador, 26",
+   "lugar": "Navalcarnero- El Pinar",
+   "direccion": "Plaza Segovia",
    "tipo": "M",
    "horarios": [
     [
@@ -646,9 +646,9 @@
      "13:45"
     ]
    ],
-   "lat": 40.2999,
-   "lon": -3.9787,
-   "precision": "verificada"
+   "lat": 40.2876685,
+   "lon": -4.0142827,
+   "precision": "direccion"
   },
   {
    "fecha": "2026-11-07",
