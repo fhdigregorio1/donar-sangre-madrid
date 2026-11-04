@@ -1,119 +1,7 @@
 {
- "actualizado": "2026-11-03T18:40:15+00:00",
+ "actualizado": "2026-11-04T13:04:33+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-03",
-   "municipio": "Leganés",
-   "lugar": "Plaza Laberinto",
-   "direccion": "C/ Petra Kelly, frente al nº 8 (Leganés Norte)",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.3441,
-   "lon": -3.7471,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-03",
-   "municipio": "Madrid",
-   "lugar": "C/ Doctor Esquerdo",
-   "direccion": "C/ Doctor Esquerdo, 140",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4054,
-   "lon": -3.6716,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-03",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-03",
-   "municipio": "Madrid",
-   "lugar": "Grupo Coremsa Albarracín",
-   "direccion": "C/ Julián Camarillo, 7, junto a Asia Home",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4336,
-   "lon": -3.6334,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-03",
-   "municipio": "Madrid",
-   "lugar": "IES Juan de la Cierva (estacionamiento)",
-   "direccion": "Paseo Esperanza esq. C/ La Caoba",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4026,
-   "lon": -3.7056,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-03",
-   "municipio": "Madrid",
-   "lugar": "Paseo Alberto Palacios",
-   "direccion": "Pº Alberto Palacios, 18, frente al Mercado",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.3465,
-   "lon": -3.7111,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-03",
-   "municipio": "Madrid",
-   "lugar": "Planetario (Bolívar)",
-   "direccion": "C/ Bronce, 4",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.3926,
-   "lon": -3.6893,
-   "precision": "verificada"
-  },
   {
    "fecha": "2026-11-04",
    "municipio": "Madrid",
@@ -776,6 +664,518 @@
    ],
    "lat": 40.6951,
    "lon": -3.5126,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-09",
+   "municipio": "Alcalá de Henares",
+   "lugar": "Avenida Reyes Católicos (Parroquia San Francisco de Asís)",
+   "direccion": "Avenida Reyes Católicos, 26 en la C/ San Vidal",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.481954,
+   "lon": -3.363981,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-09",
+   "municipio": "Cobeña",
+   "lugar": "Cobeña",
+   "direccion": "C/ Mercado, 17 junto Consultorio Médico",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ]
+   ],
+   "lat": 40.5667944,
+   "lon": -3.5068383,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-09",
+   "municipio": "Madrid",
+   "lugar": "C/ General Ricardos, 164 (Metro Oporto)",
+   "direccion": "C/ General Ricardos, 146-148",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.396733,
+   "lon": -3.7177139,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-09",
+   "municipio": "Madrid",
+   "lugar": "Glorieta de Bilbao (Fuencarral)",
+   "direccion": "C/ Fuencarral, 121",
+   "tipo": "M",
+   "horarios": [
+    [
+     "09:45",
+     "14:15"
+    ]
+   ],
+   "lat": 40.4305,
+   "lon": -3.7033,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-09",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-09",
+   "municipio": "Madrid",
+   "lugar": "Intercambiador Legazpi",
+   "direccion": "C/ Bolívar, 5-7 Jto metro Legazpi",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3930015,
+   "lon": -3.689455,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-09",
+   "municipio": "Velilla de San Antonio",
+   "lugar": "Velilla de San Antonio",
+   "direccion": "Plaza de La Constitución, 1 lateral Ayuntamiento",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ]
+   ],
+   "lat": 40.3671767,
+   "lon": -3.4874809,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-10",
+   "municipio": "Madrid",
+   "lugar": "Fever",
+   "direccion": "C/ Monte Esquinza, 16-18 esq. C/ Fernando el Santo",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-10",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-10",
+   "municipio": "Madrid",
+   "lugar": "Intercambiador Legazpi",
+   "direccion": "C/ Bolívar, 5-7 Jto metro Legazpi",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3930015,
+   "lon": -3.689455,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-10",
+   "municipio": "Mejorada del Campo",
+   "lugar": "Mejorada del Campo",
+   "direccion": "Avenida de la Concordia, 7 frente a Casa de Cultura",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:15",
+     "20:45"
+    ]
+   ],
+   "lat": 40.3992166,
+   "lon": -3.4846014,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-10",
+   "municipio": "Pozuelo de Alarcón",
+   "lugar": "Universidad Villanueva Pozuelo",
+   "direccion": "Av. Bularas esq. Avda. Juan XXIII",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "15:00"
+    ]
+   ],
+   "lat": 40.4458306,
+   "lon": -3.8196091,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-11",
+   "municipio": "Madrid",
+   "lugar": "C/ Alcalá, 339 (Metro Quintana)",
+   "direccion": "C/ Alcalá, 339",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4335554,
+   "lon": -3.6475793,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-11",
+   "municipio": "Madrid",
+   "lugar": "C/ José del Hierro, 52",
+   "direccion": "C/ José del Hierro, 41",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4355902,
+   "lon": -3.6515885,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-11",
+   "municipio": "Madrid",
+   "lugar": "C/ Palas del Rey (Metro Las Tablas)",
+   "direccion": "C/ Palas del Rey, 18-20 junto Metro",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-11",
+   "municipio": "Madrid",
+   "lugar": "Fever",
+   "direccion": "C/ Monte Esquinza, 16-18 esq. C/ Fernando el Santo",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-11",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-11",
+   "municipio": "Madrid",
+   "lugar": "Intercambiador Legazpi",
+   "direccion": "C/ Bolívar, 5-7 Jto metro Legazpi",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3930015,
+   "lon": -3.689455,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-11",
+   "municipio": "Madrid",
+   "lugar": "Palas del Rey (Metro las Tablas)",
+   "direccion": "C/ Palas del Rey 18-20, junto metro",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-11",
+   "municipio": "Villanueva de la Cañada",
+   "lugar": "Villanueva De La Cañada",
+   "direccion": "C/ Cristo, 27",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ],
+    [
+     "17:15",
+     "20:45"
+    ]
+   ],
+   "lat": 40.4489149,
+   "lon": -4.0004178,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-12",
+   "municipio": "Las Rozas de Madrid",
+   "lugar": "LAS ROZAS- C/ Bruselas esquina C/ Castillo",
+   "direccion": "C/ Castillo de Arévalo, 1",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.5062174,
+   "lon": -3.8938316,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-12",
+   "municipio": "Madrid",
+   "lugar": "Avenida Niza esquina C/ María Sevilla Diago",
+   "direccion": "Avenida Niza esquina C/ María Sevilla Diago",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4313976,
+   "lon": -3.6073548,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-12",
+   "municipio": "Madrid",
+   "lugar": "Carretera Canillas, 47",
+   "direccion": "Carretera Canillas, 47 junto a la farmacia",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4636913,
+   "lon": -3.64621,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-12",
+   "municipio": "Madrid",
+   "lugar": "Clínica Cemtro",
+   "direccion": "C/ Ventisquero de la Condesa, 42",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-12",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-12",
+   "municipio": "Madrid",
+   "lugar": "Guzmán el Bueno",
+   "direccion": "C/ Fernández de los Ríos, 76 esq. C/ Guzmán el Bueno",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:15"
+    ]
+   ],
+   "lat": 40.4354055,
+   "lon": -3.7136035,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-13",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-14",
+   "municipio": "Madrid",
+   "lugar": "Glorieta de Bilbao (Fuencarral)",
+   "direccion": "C/ Fuencarral, 121",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:15"
+    ]
+   ],
+   "lat": 40.4305,
+   "lon": -3.7033,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-14",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-15",
+   "municipio": "Madrid",
+   "lugar": "Glorieta de Bilbao (Fuencarral)",
+   "direccion": "C/ Fuencarral, 121",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:15"
+    ]
+   ],
+   "lat": 40.4305,
+   "lon": -3.7033,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-15",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
    "precision": "verificada"
   }
  ]
