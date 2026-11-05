@@ -1,139 +1,7 @@
 {
- "actualizado": "2026-11-04T18:54:37+00:00",
+ "actualizado": "2026-11-05T13:18:09+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-04",
-   "municipio": "Madrid",
-   "lugar": "ALLFUND",
-   "direccion": "C/ de los Padres Dominicos, 7",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.505,
-   "lon": -3.6566,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-04",
-   "municipio": "Madrid",
-   "lugar": "Coca-Cola",
-   "direccion": "C/ Ribera del Loira, 20-22",
-   "tipo": "M",
-   "horarios": [
-    [
-     "09:00",
-     "14:25"
-    ]
-   ],
-   "lat": 40.4651,
-   "lon": -3.6242,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-04",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-04",
-   "municipio": "Madrid",
-   "lugar": "Grupo Coremsa Santa Lucrecia",
-   "direccion": "C/ Santa Lucrecia, 11 (Plaza Elíptica)",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.3861,
-   "lon": -3.7191,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-04",
-   "municipio": "Madrid",
-   "lugar": "IES Juan de la Cierva (estacionamiento)",
-   "direccion": "Paseo Esperanza esq. C/ La Caoba",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4026,
-   "lon": -3.7056,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-04",
-   "municipio": "Madrid",
-   "lugar": "UAX Arapiles",
-   "direccion": "C/ Arapiles, 13",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "19:30"
-    ]
-   ],
-   "lat": 40.4327,
-   "lon": -3.7063,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-04",
-   "municipio": "Madrid",
-   "lugar": "Universidad Pontificia Comillas ICADE",
-   "direccion": "Sala en C/ Alberto Aguilera, 23 y furgoneta en C/ Baltasar Gracián, 1",
-   "tipo": "SF",
-   "horarios": [
-    [
-     "15:45",
-     "20:00"
-    ]
-   ],
-   "lat": 40.4296,
-   "lon": -3.7112,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-04",
-   "municipio": "Madrid",
-   "lugar": "Universidad Villanueva, Costa Brava",
-   "direccion": "C/ Costa Brava, 6",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ],
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4973,
-   "lon": -3.7045,
-   "precision": "verificada"
-  },
   {
    "fecha": "2026-11-05",
    "municipio": "Getafe",
@@ -653,8 +521,8 @@
   {
    "fecha": "2026-11-08",
    "municipio": "Valdetorres de Jarama",
-   "lugar": "Plaza de la Constitución",
-   "direccion": "Plaza de la Constitución",
+   "lugar": "Valdetorres De Jarama",
+   "direccion": "Equipo móvil C/ Soledad- Lateral Iglesia",
    "tipo": "M",
    "horarios": [
     [
@@ -662,9 +530,9 @@
      "13:45"
     ]
    ],
-   "lat": 40.6951,
-   "lon": -3.5126,
-   "precision": "verificada"
+   "lat": 40.6956481,
+   "lon": -3.5146559,
+   "precision": "municipio"
   },
   {
    "fecha": "2026-11-09",
@@ -838,8 +706,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.396797,
-   "lon": -3.4838555,
+   "lat": 40.397938,
+   "lon": -3.4844173,
    "precision": "direccion"
   },
   {
@@ -854,8 +722,8 @@
      "15:00"
     ]
    ],
-   "lat": 40.4468892,
-   "lon": -3.8133797,
+   "lat": 40.4458306,
+   "lon": -3.8196091,
    "precision": "direccion"
   },
   {
