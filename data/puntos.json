@@ -1,167 +1,7 @@
 {
- "actualizado": "2026-11-05T19:04:58+00:00",
+ "actualizado": "2026-11-06T13:01:37+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Getafe",
-   "lugar": "IES Satafi",
-   "direccion": "Av. Las Ciudades, 104",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "13:50"
-    ]
-   ],
-   "lat": 40.3124,
-   "lon": -3.7128,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Madrid",
-   "lugar": "Colegio Mayor Santillana",
-   "direccion": "C/ Marbella, 59S-59U",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4941,
-   "lon": -3.7061,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Madrid",
-   "lugar": "UAX Arapiles",
-   "direccion": "C/ Arapiles, 13",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "19:30"
-    ]
-   ],
-   "lat": 40.4327,
-   "lon": -3.7063,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Madrid",
-   "lugar": "UPM ETSI Minas y Energía",
-   "direccion": "C/ Alenza, 2 esq. C/ Ríos Rosas",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4427,
-   "lon": -3.7005,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Madrid",
-   "lugar": "Universidad Eclesiástica San Dámaso",
-   "direccion": "Sala en C/ Jerte, 10 (planta baja)",
-   "tipo": "S",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.411,
-   "lon": -3.7155,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Madrid",
-   "lugar": "Universidad Pontificia Comillas ICADE",
-   "direccion": "Sala en C/ Alberto Aguilera, 23 y furgoneta en C/ Baltasar Gracián, 1",
-   "tipo": "SF",
-   "horarios": [
-    [
-     "15:45",
-     "20:00"
-    ]
-   ],
-   "lat": 40.4296,
-   "lon": -3.7112,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Madrid",
-   "lugar": "Universidad Villanueva, sede Mirasierra",
-   "direccion": "C/ Costa Rica, 2, junto a la universidad",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4584,
-   "lon": -3.6774,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Pinto",
-   "lugar": "Parque Egido de la Fuente",
-   "direccion": "Parque Egido de la Fuente, acera frente al bar Gran Vía",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.2441,
-   "lon": -3.6986,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-05",
-   "municipio": "Tres Cantos",
-   "lugar": "Tres Cantos II",
-   "direccion": "Av. de España, 9",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.6184,
-   "lon": -3.7171,
-   "precision": "verificada"
-  },
   {
    "fecha": "2026-11-06",
    "municipio": "Alcorcón",
@@ -578,8 +418,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.3961505,
-   "lon": -3.7187704,
+   "lat": 40.3907917,
+   "lon": -3.7283143,
    "precision": "direccion"
   },
   {
@@ -626,8 +466,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.3915402,
-   "lon": -3.6938463,
+   "lat": 40.392415,
+   "lon": -3.6912095,
    "precision": "direccion"
   },
   {
@@ -690,8 +530,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.3915402,
-   "lon": -3.6938463,
+   "lat": 40.392415,
+   "lon": -3.6912095,
    "precision": "direccion"
   },
   {
@@ -706,8 +546,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.3992166,
-   "lon": -3.4846014,
+   "lat": 40.397938,
+   "lon": -3.4844173,
    "precision": "direccion"
   },
   {
@@ -758,8 +598,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4368178,
-   "lon": -3.6490573,
+   "lat": 40.4374018,
+   "lon": -3.6478744,
    "precision": "direccion"
   },
   {
@@ -826,8 +666,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.3915402,
-   "lon": -3.6938463,
+   "lat": 40.392415,
+   "lon": -3.6912095,
    "precision": "direccion"
   },
   {
@@ -914,8 +754,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4313976,
-   "lon": -3.6073548,
+   "lat": 40.4339878,
+   "lon": -3.6079667,
    "precision": "direccion"
   },
   {
@@ -1190,8 +1030,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.690836,
-   "lon": -3.6093328,
+   "lat": 40.6906243,
+   "lon": -3.6062868,
    "precision": "direccion"
   },
   {
