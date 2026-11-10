@@ -1,491 +1,7 @@
 {
- "actualizado": "2026-11-09T21:39:54+00:00",
+ "actualizado": "2026-11-10T13:35:12+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Alcorcón",
-   "lugar": "Avenida de la Libertad (Metro Sur)",
-   "direccion": "Av. de la Libertad, frente a Metro Puerta del Sur",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ],
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.3459,
-   "lon": -3.8116,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Collado Villalba",
-   "lugar": "Urbanización Los Belgas",
-   "direccion": "C/ Batalla de Bailén, 7, junto a la Biblioteca",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.6314,
-   "lon": -4.0069,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Madrid",
-   "lugar": "Orense",
-   "direccion": "C/ Orense, 16",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:30",
-     "21:15"
-    ]
-   ],
-   "lat": 40.4498,
-   "lon": -3.6949,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Madrid",
-   "lugar": "Palacio de Hielo",
-   "direccion": "C/ Silvano, 77",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4632,
-   "lon": -3.6373,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Majadahonda",
-   "lugar": "Plaza de los Jardinillos",
-   "direccion": "Pl. de los Jardinillos, C/ Dr. Calero, 17",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4741,
-   "lon": -3.8726,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Navalcarnero",
-   "lugar": "Navalcarnero- El Pinar",
-   "direccion": "Plaza Segovia",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:15",
-     "20:45"
-    ]
-   ],
-   "lat": 40.2876685,
-   "lon": -4.0142827,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Torrelodones",
-   "lugar": "Plaza del Caño",
-   "direccion": "Plaza del Caño, s/n esq. C/ Carlos Picabea",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.5764,
-   "lon": -3.9296,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-06",
-   "municipio": "Tres Cantos",
-   "lugar": "Avenida Viñuelas",
-   "direccion": "Av. Viñuelas, 50",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.5961,
-   "lon": -3.6998,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-07",
-   "municipio": "Aranjuez",
-   "lugar": "Glorieta Joaquín Cotanda",
-   "direccion": "Glorieta Joaquín Cotanda",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:15",
-     "13:30"
-    ]
-   ],
-   "lat": 40.0337,
-   "lon": -3.5979,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-07",
-   "municipio": "Ciempozuelos",
-   "lugar": "Avenida del Consuelo",
-   "direccion": "Avda. del Consuelo, 50",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:15",
-     "13:30"
-    ]
-   ],
-   "lat": 40.1552,
-   "lon": -3.6244,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-07",
-   "municipio": "Madrid",
-   "lugar": "Glorieta de Bilbao (Fuencarral)",
-   "direccion": "C/ Fuencarral, 121",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:15"
-    ]
-   ],
-   "lat": 40.4305,
-   "lon": -3.7033,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-07",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-07",
-   "municipio": "Majadahonda",
-   "lugar": "Plaza de los Jardinillos",
-   "direccion": "Pl. de los Jardinillos, C/ Dr. Calero, 17",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4741,
-   "lon": -3.8726,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-07",
-   "municipio": "Navalcarnero",
-   "lugar": "Navalcarnero- El Pinar",
-   "direccion": "Plaza Segovia",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:15",
-     "13:45"
-    ]
-   ],
-   "lat": 40.2876685,
-   "lon": -4.0142827,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-07",
-   "municipio": "Torrelodones",
-   "lugar": "Plaza del Caño",
-   "direccion": "Plaza del Caño, s/n esq. C/ Carlos Picabea",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.5764,
-   "lon": -3.9296,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-08",
-   "municipio": "Alcobendas",
-   "lugar": "Parroquia Santa María de la Esperanza",
-   "direccion": "C/ Ramón y Cajal, 3",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.5418,
-   "lon": -3.6513,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-08",
-   "municipio": "Aranjuez",
-   "lugar": "Plaza de la Constitución (Ayuntamiento)",
-   "direccion": "Plaza de la Constitución",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:15",
-     "13:30"
-    ]
-   ],
-   "lat": 40.0322,
-   "lon": -3.6036,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-08",
-   "municipio": "Arroyomolinos",
-   "lugar": "Iglesia Santa Ángela de la Cruz",
-   "direccion": "C/ Marbella, 34",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "13:45"
-    ]
-   ],
-   "lat": 40.2795,
-   "lon": -3.9161,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-08",
-   "municipio": "Madrid",
-   "lugar": "Glorieta de Bilbao (Fuencarral)",
-   "direccion": "C/ Fuencarral, 121",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:15"
-    ]
-   ],
-   "lat": 40.4305,
-   "lon": -3.7033,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-08",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-08",
-   "municipio": "Moralzarzal",
-   "lugar": "Plaza de toros",
-   "direccion": "Av. Salvador Sánchez Frascuelo, entrada principal de la plaza de toros",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:15",
-     "13:45"
-    ]
-   ],
-   "lat": 40.6806,
-   "lon": -3.9677,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-08",
-   "municipio": "Valdetorres de Jarama",
-   "lugar": "Valdetorres De Jarama",
-   "direccion": "Equipo móvil C/ Soledad- Lateral Iglesia",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:15",
-     "13:45"
-    ]
-   ],
-   "lat": 40.6956481,
-   "lon": -3.5146559,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-09",
-   "municipio": "Alcalá de Henares",
-   "lugar": "Avenida Reyes Católicos (Parroquia San Francisco de Asís)",
-   "direccion": "Avenida Reyes Católicos, 26 en la C/ San Vidal",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.481954,
-   "lon": -3.363981,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-09",
-   "municipio": "Cobeña",
-   "lugar": "Cobeña",
-   "direccion": "C/ Mercado, 17 junto Consultorio Médico",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:15",
-     "13:45"
-    ]
-   ],
-   "lat": 40.5667944,
-   "lon": -3.5068383,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-09",
-   "municipio": "Madrid",
-   "lugar": "C/ General Ricardos, 164 (Metro Oporto)",
-   "direccion": "C/ General Ricardos, 146-148",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.3907917,
-   "lon": -3.7283143,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-09",
-   "municipio": "Madrid",
-   "lugar": "Glorieta de Bilbao (Fuencarral)",
-   "direccion": "C/ Fuencarral, 121",
-   "tipo": "M",
-   "horarios": [
-    [
-     "09:45",
-     "14:15"
-    ]
-   ],
-   "lat": 40.4305,
-   "lon": -3.7033,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-09",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-09",
-   "municipio": "Madrid",
-   "lugar": "Intercambiador Legazpi",
-   "direccion": "C/ Bolívar, 5-7 Jto metro Legazpi",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.392415,
-   "lon": -3.6912095,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-09",
-   "municipio": "Velilla de San Antonio",
-   "lugar": "Velilla de San Antonio",
-   "direccion": "Plaza de La Constitución, 1 lateral Ayuntamiento",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:15",
-     "13:45"
-    ]
-   ],
-   "lat": 40.3671767,
-   "lon": -3.4874809,
-   "precision": "municipio"
-  },
   {
    "fecha": "2026-11-10",
    "municipio": "Madrid",
@@ -562,8 +78,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.3991896,
-   "lon": -3.4844908,
+   "lat": 40.3992166,
+   "lon": -3.4846014,
    "precision": "direccion"
   },
   {
@@ -578,8 +94,8 @@
      "15:00"
     ]
    ],
-   "lat": 40.4474942,
-   "lon": -3.8102401,
+   "lat": 40.4468892,
+   "lon": -3.8133797,
    "precision": "direccion"
   },
   {
@@ -770,8 +286,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4339878,
-   "lon": -3.6079667,
+   "lat": 40.4313976,
+   "lon": -3.6073548,
    "precision": "direccion"
   },
   {
@@ -962,9 +478,9 @@
      "20:45"
     ]
    ],
-   "lat": 40.5048527,
-   "lon": -3.5317621,
-   "precision": "municipio"
+   "lat": null,
+   "lon": null,
+   "precision": "sin_ubicacion"
   },
   {
    "fecha": "2026-11-13",
@@ -978,8 +494,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4474195,
-   "lon": -3.8014615,
+   "lat": 40.4475835,
+   "lon": -3.8014446,
    "precision": "direccion"
   },
   {
@@ -1046,8 +562,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.6749744,
-   "lon": -3.6129062,
+   "lat": 40.6913233,
+   "lon": -3.6088586,
    "precision": "direccion"
   },
   {
