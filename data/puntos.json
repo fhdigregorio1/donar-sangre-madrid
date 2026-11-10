@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-10T13:35:12+00:00",
+ "actualizado": "2026-11-10T18:55:42+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -130,8 +130,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4355902,
-   "lon": -3.6515885,
+   "lat": 40.4368178,
+   "lon": -3.6490573,
    "precision": "direccion"
   },
   {
@@ -169,22 +169,6 @@
    "lat": 40.416782,
    "lon": -3.703507,
    "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-11",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
   },
   {
    "fecha": "2026-11-11",
@@ -240,6 +224,22 @@
   },
   {
    "fecha": "2026-11-11",
+   "municipio": "Madrid",
+   "lugar": "Pza. Santa Bárbara",
+   "direccion": "Pza de Santa Bárbara",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.427028,
+   "lon": -3.6964575,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-11",
    "municipio": "Villanueva de la Cañada",
    "lugar": "Villanueva De La Cañada",
    "direccion": "C/ Cristo, 27",
@@ -286,8 +286,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4313976,
-   "lon": -3.6073548,
+   "lat": 40.4304483,
+   "lon": -3.6071392,
    "precision": "direccion"
   },
   {
@@ -478,9 +478,9 @@
      "20:45"
     ]
    ],
-   "lat": null,
-   "lon": null,
-   "precision": "sin_ubicacion"
+   "lat": 40.5048527,
+   "lon": -3.5317621,
+   "precision": "municipio"
   },
   {
    "fecha": "2026-11-13",
@@ -494,8 +494,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4475835,
-   "lon": -3.8014446,
+   "lat": 40.4474195,
+   "lon": -3.8014615,
    "precision": "direccion"
   },
   {
@@ -562,8 +562,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.6913233,
-   "lon": -3.6088586,
+   "lat": 40.690836,
+   "lon": -3.6093328,
    "precision": "direccion"
   },
   {
