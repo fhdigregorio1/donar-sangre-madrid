@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T12:48:03+00:00",
+ "actualizado": "2026-11-11T18:54:47+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -14,8 +14,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4368178,
-   "lon": -3.6490573,
+   "lat": 40.4355902,
+   "lon": -3.6515885,
    "precision": "direccion"
   },
   {
@@ -66,8 +66,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.392415,
-   "lon": -3.6912095,
+   "lat": 40.3915402,
+   "lon": -3.6938463,
    "precision": "direccion"
   },
   {
@@ -234,8 +234,8 @@
      "21:15"
     ]
    ],
-   "lat": 40.4353979,
-   "lon": -3.713425,
+   "lat": 40.4354025,
+   "lon": -3.7135328,
    "precision": "direccion"
   },
   {
@@ -314,8 +314,8 @@
      "15:00"
     ]
    ],
-   "lat": 40.448316,
-   "lon": -3.6208473,
+   "lat": 40.4492224,
+   "lon": -3.6207775,
    "precision": "direccion"
   },
   {
@@ -378,8 +378,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4474195,
-   "lon": -3.8014615,
+   "lat": 40.4475835,
+   "lon": -3.8014446,
    "precision": "direccion"
   },
   {
@@ -446,8 +446,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.6807197,
-   "lon": -3.6139265,
+   "lat": 40.690836,
+   "lon": -3.6093328,
    "precision": "direccion"
   },
   {
@@ -577,6 +577,86 @@
    "lat": 40.4949232,
    "lon": -3.9600065,
    "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-16",
+   "municipio": "Madrid",
+   "lugar": "FCC-Las Tablas",
+   "direccion": "Av. del Cam. de Santiago,40",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4716275,
+   "lon": -3.6605391,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-16",
+   "municipio": "Madrid",
+   "lugar": "Hotel Atelier",
+   "direccion": "C/ Poeta Joan Maragall, 38-40",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-16",
+   "municipio": "Madrid",
+   "lugar": "Upm Etsi Industriales",
+   "direccion": "C/ José Gutiérrez Abascal frente nº 2 Entrada Principal",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:30",
+     "20:00"
+    ]
+   ],
+   "lat": 40.4403208,
+   "lon": -3.690265,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-17",
+   "municipio": "Madrid",
+   "lugar": "FCC-Las Tablas",
+   "direccion": "Av. del Cam. de Santiago,40",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4716275,
+   "lon": -3.6605391,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-18",
+   "municipio": "Madrid",
+   "lugar": "FCC-Las Tablas",
+   "direccion": "Av. del Cam. de Santiago,40",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4716275,
+   "lon": -3.6605391,
+   "precision": "direccion"
   }
  ]
 }
