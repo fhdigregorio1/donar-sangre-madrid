@@ -1,123 +1,7 @@
 {
- "actualizado": "2026-11-10T18:55:42+00:00",
+ "actualizado": "2026-11-11T12:48:03+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-10",
-   "municipio": "Madrid",
-   "lugar": "Ciudad Lineal",
-   "direccion": "Av. Hermanos García Noblejas, 2",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4374,
-   "lon": -3.638,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-10",
-   "municipio": "Madrid",
-   "lugar": "Fever",
-   "direccion": "C/ Monte Esquinza, 16-18 esq. C/ Fernando el Santo",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.416782,
-   "lon": -3.703507,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-10",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-10",
-   "municipio": "Madrid",
-   "lugar": "Intercambiador Legazpi",
-   "direccion": "C/ Bolívar, 5-7 Jto metro Legazpi",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.392415,
-   "lon": -3.6912095,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-10",
-   "municipio": "Mejorada del Campo",
-   "lugar": "Mejorada del Campo",
-   "direccion": "Avenida de la Concordia, 7 frente a Casa de Cultura",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:15",
-     "20:45"
-    ]
-   ],
-   "lat": 40.3992166,
-   "lon": -3.4846014,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-10",
-   "municipio": "Pozuelo de Alarcón",
-   "lugar": "Universidad Villanueva Pozuelo",
-   "direccion": "Av. Bularas esq. Avda. Juan XXIII",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "15:00"
-    ]
-   ],
-   "lat": 40.4468892,
-   "lon": -3.8133797,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-11",
-   "municipio": "Madrid",
-   "lugar": "C/ Alcalá, 339 (Metro Quintana)",
-   "direccion": "C/ Alcalá, 339",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ],
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4335554,
-   "lon": -3.6475793,
-   "precision": "direccion"
-  },
   {
    "fecha": "2026-11-11",
    "municipio": "Madrid",
@@ -234,8 +118,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.427028,
-   "lon": -3.6964575,
+   "lat": 40.4269627,
+   "lon": -3.6962209,
    "precision": "direccion"
   },
   {
@@ -286,8 +170,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4304483,
-   "lon": -3.6071392,
+   "lat": 40.4322495,
+   "lon": -3.6075455,
    "precision": "direccion"
   },
   {
@@ -350,8 +234,8 @@
      "21:15"
     ]
    ],
-   "lat": 40.4354025,
-   "lon": -3.7135328,
+   "lat": 40.4353979,
+   "lon": -3.713425,
    "precision": "direccion"
   },
   {
@@ -562,8 +446,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.690836,
-   "lon": -3.6093328,
+   "lat": 40.6807197,
+   "lon": -3.6139265,
    "precision": "direccion"
   },
   {
