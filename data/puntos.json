@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T13:54:16+00:00",
+ "actualizado": "2026-11-12T19:12:59+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -30,8 +30,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4313976,
-   "lon": -3.6073548,
+   "lat": 40.4304483,
+   "lon": -3.6071392,
    "precision": "direccion"
   },
   {
@@ -174,8 +174,8 @@
      "15:00"
     ]
    ],
-   "lat": 40.4492224,
-   "lon": -3.6207775,
+   "lat": 40.448316,
+   "lon": -3.6208473,
    "precision": "direccion"
   },
   {
@@ -238,8 +238,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4475835,
-   "lon": -3.8014446,
+   "lat": 40.4474195,
+   "lon": -3.8014615,
    "precision": "direccion"
   },
   {
@@ -306,8 +306,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.690836,
-   "lon": -3.6093328,
+   "lat": 40.6749744,
+   "lon": -3.6129062,
    "precision": "direccion"
   },
   {
@@ -774,8 +774,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.5479618,
-   "lon": -3.6989396,
+   "lat": 40.5491907,
+   "lon": -3.694647,
    "precision": "direccion"
   },
   {
@@ -806,8 +806,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4053651,
-   "lon": -3.8966247,
+   "lat": 40.4057896,
+   "lon": -3.8961837,
    "precision": "direccion"
   },
   {
@@ -918,8 +918,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.545194,
-   "lon": -3.643017,
+   "lat": 40.5434406,
+   "lon": -3.6281664,
    "precision": "direccion"
   },
   {
@@ -950,8 +950,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4053651,
-   "lon": -3.8966247,
+   "lat": 40.4057896,
+   "lon": -3.8961837,
    "precision": "direccion"
   },
   {
@@ -966,9 +966,9 @@
      "21:00"
     ]
    ],
-   "lat": null,
-   "lon": null,
-   "precision": "sin_ubicacion"
+   "lat": 40.4959671,
+   "lon": -3.8698577,
+   "precision": "direccion"
   },
   {
    "fecha": "2026-11-20",
@@ -1014,9 +1014,9 @@
      "21:00"
     ]
    ],
-   "lat": null,
-   "lon": null,
-   "precision": "sin_ubicacion"
+   "lat": 40.499811,
+   "lon": -3.6625495,
+   "precision": "direccion"
   },
   {
    "fecha": "2026-11-20",
@@ -1030,9 +1030,9 @@
      "21:00"
     ]
    ],
-   "lat": null,
-   "lon": null,
-   "precision": "sin_ubicacion"
+   "lat": 40.4101673,
+   "lon": -3.7380265,
+   "precision": "direccion"
   },
   {
    "fecha": "2026-11-20",
@@ -1226,8 +1226,8 @@
      "14:30"
     ]
    ],
-   "lat": 40.4564511,
-   "lon": -3.696292,
+   "lat": 40.4562063,
+   "lon": -3.6915841,
    "precision": "direccion"
   },
   {
@@ -1262,8 +1262,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.6149916,
-   "lon": -3.7114467,
+   "lat": 40.6068853,
+   "lon": -3.7159251,
    "precision": "direccion"
   }
  ]
