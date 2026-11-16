@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T13:47:30+00:00",
+ "actualizado": "2026-11-16T21:18:12+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -94,8 +94,8 @@
      "21:15"
     ]
    ],
-   "lat": 40.4353979,
-   "lon": -3.713425,
+   "lat": 40.4354025,
+   "lon": -3.7135328,
    "precision": "direccion"
   },
   {
@@ -306,8 +306,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.690836,
-   "lon": -3.6093328,
+   "lat": 40.6749744,
+   "lon": -3.6129062,
    "precision": "direccion"
   },
   {
@@ -774,9 +774,9 @@
      "21:00"
     ]
    ],
-   "lat": null,
-   "lon": null,
-   "precision": "sin_ubicacion"
+   "lat": 40.5479618,
+   "lon": -3.6989396,
+   "precision": "direccion"
   },
   {
    "fecha": "2026-11-19",
@@ -806,8 +806,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4055014,
-   "lon": -3.8961553,
+   "lat": 40.4057896,
+   "lon": -3.8961837,
    "precision": "direccion"
   },
   {
@@ -950,8 +950,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4055014,
-   "lon": -3.8961553,
+   "lat": 40.4057896,
+   "lon": -3.8961837,
    "precision": "direccion"
   },
   {
@@ -1014,8 +1014,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4952895,
-   "lon": -3.6679451,
+   "lat": 40.4879338,
+   "lon": -3.673341,
    "precision": "direccion"
   },
   {
@@ -1110,8 +1110,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.4063406,
-   "lon": -3.5627716,
+   "lat": 40.4061377,
+   "lon": -3.5617616,
    "precision": "direccion"
   },
   {
