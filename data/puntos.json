@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T14:35:46+00:00",
+ "actualizado": "2026-11-17T20:05:24+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -226,8 +226,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.5479618,
-   "lon": -3.6989396,
+   "lat": 40.5491907,
+   "lon": -3.694647,
    "precision": "direccion"
   },
   {
@@ -370,8 +370,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.5434406,
-   "lon": -3.6281664,
+   "lat": 40.5441981,
+   "lon": -3.6437163,
    "precision": "direccion"
   },
   {
@@ -418,9 +418,9 @@
      "21:00"
     ]
    ],
-   "lat": null,
-   "lon": null,
-   "precision": "sin_ubicacion"
+   "lat": 40.4959671,
+   "lon": -3.8698577,
+   "precision": "direccion"
   },
   {
    "fecha": "2026-11-20",
@@ -466,8 +466,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4775783,
-   "lon": -3.6752251,
+   "lat": 40.4903983,
+   "lon": -3.6718784,
    "precision": "direccion"
   },
   {
@@ -562,8 +562,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.4061377,
-   "lon": -3.5617616,
+   "lat": 40.4063406,
+   "lon": -3.5627716,
    "precision": "direccion"
   },
   {
