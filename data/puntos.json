@@ -1,123 +1,7 @@
 {
- "actualizado": "2026-11-17T20:05:24+00:00",
+ "actualizado": "2026-11-18T14:14:00+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-17",
-   "municipio": "Alcobendas",
-   "lugar": "Procter",
-   "direccion": "Avenida de Bruselas, 24",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.531171,
-   "lon": -3.6396825,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-17",
-   "municipio": "Colmenar Viejo",
-   "lugar": "C/ Molino de Viento, 13",
-   "direccion": "C/ Molino de Viento, 13 junto CC El Mirador",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:15",
-     "20:45"
-    ]
-   ],
-   "lat": 40.6648181,
-   "lon": -3.7726922,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-17",
-   "municipio": "Madrid",
-   "lugar": "Avenida Complutense (Metro Ciudad Universitaria)",
-   "direccion": "Avenida Complutense, explanada frente a Metro",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:30",
-     "20:30"
-    ]
-   ],
-   "lat": 40.416782,
-   "lon": -3.703507,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-17",
-   "municipio": "Madrid",
-   "lugar": "FCC-Las Tablas",
-   "direccion": "Av. del Cam. de Santiago,40",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4716275,
-   "lon": -3.6605391,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-17",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-17",
-   "municipio": "Madrid",
-   "lugar": "Upm Etsi Industriales",
-   "direccion": "C/ José Gutiérrez Abascal frente nº 2, entrada principal",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:30",
-     "20:00"
-    ]
-   ],
-   "lat": 40.4403208,
-   "lon": -3.690265,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-17",
-   "municipio": "Pozuelo de Alarcón",
-   "lugar": "ESIC- Pozuelo de Alarcón",
-   "direccion": "Av Valdenigrales s/n",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ],
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4346528,
-   "lon": -3.814834,
-   "precision": "municipio"
-  },
   {
    "fecha": "2026-11-18",
    "municipio": "Madrid",
@@ -226,8 +110,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.5491907,
-   "lon": -3.694647,
+   "lat": 40.5479618,
+   "lon": -3.6989396,
    "precision": "direccion"
   },
   {
@@ -370,8 +254,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.5441981,
-   "lon": -3.6437163,
+   "lat": 40.5472286,
+   "lon": -3.6410468,
    "precision": "direccion"
   },
   {
@@ -466,8 +350,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4903983,
-   "lon": -3.6718784,
+   "lat": 40.4879338,
+   "lon": -3.673341,
    "precision": "direccion"
   },
   {
@@ -562,8 +446,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.4063406,
-   "lon": -3.5627716,
+   "lat": 40.4044405,
+   "lon": -3.5585085,
    "precision": "direccion"
   },
   {
@@ -716,6 +600,830 @@
    ],
    "lat": 40.6149916,
    "lon": -3.7114467,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-23",
+   "municipio": "Alcorcón",
+   "lugar": "CES Juan Pablo II FP",
+   "direccion": "C/ Estocolmo, 1",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.3522,
+   "lon": -3.8319,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-23",
+   "municipio": "Humanes de Madrid",
+   "lugar": "Bº Picasso - C/ Vicente Aleixandre",
+   "direccion": "C/ Vicente Aleixandre",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:15",
+     "20:45"
+    ]
+   ],
+   "lat": 40.2587231,
+   "lon": -3.8199964,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-23",
+   "municipio": "Madrid",
+   "lugar": "C/ Embajadores, 72 - Ronda de Valencia, 3",
+   "direccion": "C/ Embajadores, 86-88",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4036126,
+   "lon": -3.7013489,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-23",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-23",
+   "municipio": "Madrid",
+   "lugar": "Institución La Salle",
+   "direccion": "C/ Blas Cabrera, 50",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.3779787,
+   "lon": -3.7746639,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-23",
+   "municipio": "Madrid",
+   "lugar": "Neinver Pio Xii",
+   "direccion": "C/ Memorial 11 de Marzo 2004, esquina C/ Pío XII, 44",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-23",
+   "municipio": "Madrid",
+   "lugar": "Plaza República Dominicana",
+   "direccion": "Plaza República Dominicana, 2",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4583727,
+   "lon": -3.6773716,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-23",
+   "municipio": "Tres Cantos",
+   "lugar": "Avenida Colmenar Viejo",
+   "direccion": "Avenida Colmenar Viejo, esquina C/ Maliciosa",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.6149916,
+   "lon": -3.7114467,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-24",
+   "municipio": "Alcobendas",
+   "lugar": "Leroy Merlin",
+   "direccion": "Av. de la Vega, 2-4",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "13:45"
+    ]
+   ],
+   "lat": 40.5364042,
+   "lon": -3.6256475,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-24",
+   "municipio": "Madrid",
+   "lugar": "C/ Embajadores, 72 - Ronda de Valencia, 3",
+   "direccion": "C/ Embajadores, 88-90",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4036126,
+   "lon": -3.7013489,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-24",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-24",
+   "municipio": "Madrid",
+   "lugar": "Lactalis",
+   "direccion": "C/ Juan de Mariana, 17B",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.3229851,
+   "lon": -3.7664063,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-24",
+   "municipio": "Madrid",
+   "lugar": "Plaza República Dominicana",
+   "direccion": "Plaza República Dominicana, 2",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4583727,
+   "lon": -3.6773716,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-24",
+   "municipio": "Madrid",
+   "lugar": "TRAGSATEC II C/ Julián Camarillo, 6B",
+   "direccion": "C/ Julián Camarillo 6B",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4349177,
+   "lon": -3.6276045,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-24",
+   "municipio": "Pinto",
+   "lugar": "Avenida Antonio López (Mercadona)",
+   "direccion": "Avenida Pintor Antonio López, junto parroquia",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.240985,
+   "lon": -3.7005072,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-24",
+   "municipio": "Tres Cantos",
+   "lugar": "Avenida Colmenar Viejo",
+   "direccion": "Avenida Colmenar Viejo esquina C/ Maliciosa",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.6149916,
+   "lon": -3.7114467,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "C/ Príncipe Carlos, 40 (Metro Blasco Ibáñez)",
+   "direccion": "C/ Príncipe Carlos, 40 frente puerta Gimnasio",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4926999,
+   "lon": -3.6540048,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "Colegio Mayor Santa Maria De Europa",
+   "direccion": "C/ Cea Bermúdez, 17",
+   "tipo": "M",
+   "horarios": [
+    [
+     "15:04",
+     "20:30"
+    ]
+   ],
+   "lat": 40.4387023,
+   "lon": -3.7091954,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "Edificio Iris",
+   "direccion": "C/ Ribera del Loira, 4-6",
+   "tipo": "M",
+   "horarios": [
+    [
+     "09:45",
+     "14:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "Paseo Alameda de Osuna, 65",
+   "direccion": "C/ Rioja esquina C/ Corbeta, junto Metro donde el Bibliobus",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3458276,
+   "lon": -3.827955,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "Plaza República Dominicana",
+   "direccion": "Plaza República Dominicana, 2",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4583727,
+   "lon": -3.6773716,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "Seguros Santa Lucia San Máximo",
+   "direccion": "C/ San Máximo, 11",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4321569,
+   "lon": -3.6504569,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "TRAGSATEC II- C/ Julian Camarillo, 6B",
+   "direccion": "C/ Julián Camarillo 6B",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4349177,
+   "lon": -3.6276045,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-25",
+   "municipio": "Madrid",
+   "lugar": "Ucm Veterinaria",
+   "direccion": "Av. Puerta de Hierro, s/n",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:30",
+     "20:15"
+    ]
+   ],
+   "lat": null,
+   "lon": null,
+   "precision": "sin_ubicacion"
+  },
+  {
+   "fecha": "2026-11-26",
+   "municipio": "Madrid",
+   "lugar": "Avenida Bruselas esq. Plaza Venecia",
+   "direccion": "Avenida Bruselas esq. Plaza Venecia",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4412,
+   "lon": -3.663,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-26",
+   "municipio": "Madrid",
+   "lugar": "Avenida de la Peseta",
+   "direccion": "Av. de la Peseta, 68",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.362,
+   "lon": -3.7554,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-26",
+   "municipio": "Madrid",
+   "lugar": "C/ Marqués de Corbera 46-48",
+   "direccion": "C/ Marqués de Corbera, 45-47",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-26",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-26",
+   "municipio": "Madrid",
+   "lugar": "Plaza República Dominicana",
+   "direccion": "Plaza República Dominicana, 2",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4583727,
+   "lon": -3.6773716,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-26",
+   "municipio": "Madrid",
+   "lugar": "Universidad Saint Louis",
+   "direccion": "Av. del Valle,28",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4437476,
+   "lon": -3.7162458,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-26",
+   "municipio": "Valdemoro",
+   "lugar": "Avenida de Andalucía",
+   "direccion": "Av. de Andalucía, 22",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.1918,
+   "lon": -3.6738,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Fuenlabrada",
+   "lugar": "C. Co. Plaza Estación",
+   "direccion": "C/ Hungría, 8, junto a Plaza Ayuntamiento",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:40"
+    ],
+    [
+     "17:15",
+     "20:40"
+    ]
+   ],
+   "lat": 40.283,
+   "lon": -3.801,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Griñón",
+   "lugar": "Griñón",
+   "direccion": "Rotonda Colifloreras",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:15",
+     "20:40"
+    ]
+   ],
+   "lat": 40.2136607,
+   "lon": -3.8581479,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Guadarrama",
+   "lugar": "Guadarrama",
+   "direccion": "Plaza Ayuntamiento",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ],
+    [
+     "17:15",
+     "20:45"
+    ]
+   ],
+   "lat": 40.6724354,
+   "lon": -4.0890384,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Madrid",
+   "lugar": "C/ Golondrina (junto estación tren Aravaca)",
+   "direccion": "C/ Golondrina esquina Avenida del Talgo",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.5419988,
+   "lon": -4.1268513,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Madrid",
+   "lugar": "Centro Comercial La Gavia",
+   "direccion": "C/ Adolfo Bioy Casares, 2 Salida 10 de la A3, Ensanche de Vallecas junto Carrefour",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Madrid",
+   "lugar": "Paseo de las Delicias, 51",
+   "direccion": "C/ Ferrocarril, 7",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.5394218,
+   "lon": -4.1566561,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Rivas-Vaciamadrid",
+   "lugar": "Rivas Futura (estacionamiento)",
+   "direccion": "Av. Aurelio Álvarez, 4, frente a Cafetería Williamsburg",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.3416,
+   "lon": -3.5221,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-27",
+   "municipio": "Villaviciosa de Odón",
+   "lugar": "Avenida Príncipe de Asturias",
+   "direccion": "Avenida Príncipe de Asturias, 163 delante del Coliseo de la Cultura",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:15",
+     "20:45"
+    ]
+   ],
+   "lat": 40.3573787,
+   "lon": -3.9002334,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-28",
+   "municipio": "Arroyomolinos",
+   "lugar": "Arroyomolinos C.Co. Xanadú",
+   "direccion": "Autovía A5- salida 22, frente puerta Restauración junto al acuario",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ]
+   ],
+   "lat": 40.2729225,
+   "lon": -3.9157978,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-28",
+   "municipio": "Madrid",
+   "lugar": "Centro Comercial La Gavia",
+   "direccion": "C/ Adolfo Bioy Casares, 2 Salida 10 de la A3, Ensanche de Vallecas junto a Carrefour",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-28",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-28",
+   "municipio": "Villaviciosa de Odón",
+   "lugar": "Avd. Príncipe de Asturias",
+   "direccion": "Avd. Príncipe de Asturias, 163 delante del Coliseo de la Cultura",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ]
+   ],
+   "lat": 40.3573787,
+   "lon": -3.9002334,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-29",
+   "municipio": "Arroyomolinos",
+   "lugar": "Arroyomolinos C.Co. Xanadú",
+   "direccion": "Autovía A5- salida 22, frente puerta Restauración junto al acuario",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ]
+   ],
+   "lat": 40.2729225,
+   "lon": -3.9157978,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-29",
+   "municipio": "El Molar",
+   "lugar": "El Molar",
+   "direccion": "Plaza Mayor del Molar",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ]
+   ],
+   "lat": 40.7345156,
+   "lon": -3.5832364,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-29",
+   "municipio": "Madrid",
+   "lugar": "Centro Comercial La Gavia",
+   "direccion": "C/ Adolfo Bioy Casares, 2 Salida 10 de la A3, Ensanche de Vallecas junto Carrefour",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-11-29",
+   "municipio": "Madrid",
+   "lugar": "Glorieta de Bilbao (Fuencarral)",
+   "direccion": "C/ Fuencarral, 121",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:15"
+    ]
+   ],
+   "lat": 40.4305,
+   "lon": -3.7033,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-29",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-29",
+   "municipio": "Madrid",
+   "lugar": "Iglesia Dios Sociedad Misionera",
+   "direccion": "C/ Eugenio Selles, 3",
+   "tipo": "S",
+   "horarios": [
+    [
+     "11:00",
+     "15:00"
+    ]
+   ],
+   "lat": 40.3955543,
+   "lon": -3.6997728,
    "precision": "direccion"
   }
  ]
