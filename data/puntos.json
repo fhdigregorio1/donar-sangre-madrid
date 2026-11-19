@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T19:39:46+00:00",
+ "actualizado": "2026-11-19T14:32:11+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -110,8 +110,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.5479618,
-   "lon": -3.6989396,
+   "lat": 40.5491907,
+   "lon": -3.694647,
    "precision": "direccion"
   },
   {
@@ -142,15 +142,15 @@
      "21:00"
     ]
    ],
-   "lat": 40.4055014,
-   "lon": -3.8961553,
+   "lat": 40.4057896,
+   "lon": -3.8961837,
    "precision": "direccion"
   },
   {
    "fecha": "2026-11-19",
    "municipio": "Getafe",
    "lugar": "Plaza General Palacios",
-   "direccion": "Paseo de la Estación esq. C/ Ramón y Cajal",
+   "direccion": "C/ Ferrocarril entre Getafe Central y parking de Mercadona",
    "tipo": "M",
    "horarios": [
     [
@@ -158,9 +158,9 @@
      "21:00"
     ]
    ],
-   "lat": 40.3137,
-   "lon": -3.7315,
-   "precision": "verificada"
+   "lat": 40.3070639,
+   "lon": -3.7331808,
+   "precision": "municipio"
   },
   {
    "fecha": "2026-11-19",
@@ -254,8 +254,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.5441981,
-   "lon": -3.6437163,
+   "lat": 40.5477828,
+   "lon": -3.6392621,
    "precision": "direccion"
   },
   {
@@ -286,8 +286,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4055014,
-   "lon": -3.8961553,
+   "lat": 40.4057896,
+   "lon": -3.8961837,
    "precision": "direccion"
   },
   {
@@ -350,8 +350,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4952895,
-   "lon": -3.6679451,
+   "lat": 40.4903983,
+   "lon": -3.6718784,
    "precision": "direccion"
   },
   {
@@ -432,6 +432,22 @@
    ],
    "lat": 40.42,
    "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-21",
+   "municipio": "Madrid",
+   "lugar": "Orense",
+   "direccion": "C/ Orense, 16",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:30",
+     "21:15"
+    ]
+   ],
+   "lat": 40.4498,
+   "lon": -3.6949,
    "precision": "verificada"
   },
   {
@@ -598,8 +614,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.6149916,
-   "lon": -3.7114467,
+   "lat": 40.6107766,
+   "lon": -3.7124979,
    "precision": "direccion"
   },
   {
@@ -630,8 +646,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.2560923,
-   "lon": -3.8246844,
+   "lat": 40.2587231,
+   "lon": -3.8199964,
    "precision": "direccion"
   },
   {
@@ -646,8 +662,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.4035698,
-   "lon": -3.7014561,
+   "lat": 40.4010762,
+   "lon": -3.6995116,
    "precision": "direccion"
   },
   {
@@ -726,8 +742,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.6149916,
-   "lon": -3.7114467,
+   "lat": 40.6107766,
+   "lon": -3.7124979,
    "precision": "direccion"
   },
   {
@@ -742,8 +758,8 @@
      "13:45"
     ]
    ],
-   "lat": 40.5341084,
-   "lon": -3.6335398,
+   "lat": 40.5345513,
+   "lon": -3.6337562,
    "precision": "direccion"
   },
   {
@@ -854,8 +870,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.6149916,
-   "lon": -3.7114467,
+   "lat": 40.6107766,
+   "lon": -3.7124979,
    "precision": "direccion"
   },
   {
