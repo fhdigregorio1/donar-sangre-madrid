@@ -1,231 +1,7 @@
 {
- "actualizado": "2026-11-19T19:40:25+00:00",
+ "actualizado": "2026-11-20T14:07:43+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-18",
-   "municipio": "Madrid",
-   "lugar": "Avenida Complutense (Metro Ciudad Universitaria)",
-   "direccion": "Avenida Complutense, explanada frente a Metro",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:30",
-     "20:30"
-    ]
-   ],
-   "lat": 40.416782,
-   "lon": -3.703507,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-18",
-   "municipio": "Madrid",
-   "lugar": "C/ Téllez, s/n",
-   "direccion": "Plaza de Daoiz y Velarde por C/ Téllez",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.416782,
-   "lon": -3.703507,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-18",
-   "municipio": "Madrid",
-   "lugar": "FCC-Las Tablas",
-   "direccion": "Av. del Cam. de Santiago,40",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4716275,
-   "lon": -3.6605391,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-18",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-18",
-   "municipio": "Madrid",
-   "lugar": "Just Eat",
-   "direccion": "C/ Vara del Rey, 1",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4022389,
-   "lon": -3.6890153,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-18",
-   "municipio": "Madrid",
-   "lugar": "Plaza Beata María Ana de Jesús",
-   "direccion": "C/ Embajadores, 161",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.3954754,
-   "lon": -3.6952469,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-18",
-   "municipio": "Madrid",
-   "lugar": "Residencia Uam",
-   "direccion": "C/ Erasmo de Rotterdam, 7",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.5479618,
-   "lon": -3.6989396,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-19",
-   "municipio": "Alcalá de Henares",
-   "lugar": "Plaza Cuatro Caños",
-   "direccion": "Vía Complutense, 43",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.4865,
-   "lon": -3.3616,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-19",
-   "municipio": "Boadilla del Monte",
-   "lugar": "Avenida Siglo XXI - Plaza Virgen María",
-   "direccion": "Glorieta Virgen María",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4057896,
-   "lon": -3.8961837,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-19",
-   "municipio": "Getafe",
-   "lugar": "Plaza General Palacios",
-   "direccion": "C/ Ferrocarril entre Getafe Central y parking de Mercadona",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.3070639,
-   "lon": -3.7331808,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-19",
-   "municipio": "Madrid",
-   "lugar": "Avenida Complutense (Metro Ciudad Universitaria)",
-   "direccion": "Avenida Complutense, explanada frente a Metro",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:30",
-     "20:30"
-    ]
-   ],
-   "lat": 40.416782,
-   "lon": -3.703507,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-19",
-   "municipio": "Madrid",
-   "lugar": "FCC - C/ Federico Salmón",
-   "direccion": "C/ Arquitecto Gaudí, nº 6",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.463029,
-   "lon": -3.6702948,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-19",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-19",
-   "municipio": "Madrid",
-   "lugar": "Upm Etsi Montes",
-   "direccion": "C/ Ciudad Universitaria, s/n",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.416782,
-   "lon": -3.703507,
-   "precision": "municipio"
-  },
   {
    "fecha": "2026-11-20",
    "municipio": "Alcobendas",
@@ -254,8 +30,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.5434406,
-   "lon": -3.6281664,
+   "lat": 40.5477828,
+   "lon": -3.6392621,
    "precision": "direccion"
   },
   {
@@ -427,7 +203,7 @@
    "horarios": [
     [
      "11:00",
-     "20:45"
+     "15:30"
     ]
    ],
    "lat": 40.42,
@@ -462,8 +238,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.4044405,
-   "lon": -3.5585085,
+   "lat": 40.4063406,
+   "lon": -3.5627716,
    "precision": "direccion"
   },
   {
@@ -646,8 +422,8 @@
      "20:45"
     ]
    ],
-   "lat": 40.2560923,
-   "lon": -3.8246844,
+   "lat": 40.2587231,
+   "lon": -3.8199964,
    "precision": "direccion"
   },
   {
@@ -758,8 +534,8 @@
      "13:45"
     ]
    ],
-   "lat": 40.5361982,
-   "lon": -3.6257968,
+   "lat": 40.534768,
+   "lon": -3.6312372,
    "precision": "direccion"
   },
   {
@@ -1014,8 +790,8 @@
      "20:15"
     ]
    ],
-   "lat": 40.4422409,
-   "lon": -3.7305966,
+   "lat": 40.4508277,
+   "lon": -3.7399764,
    "precision": "direccion"
   },
   {
