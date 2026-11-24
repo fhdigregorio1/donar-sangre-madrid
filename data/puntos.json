@@ -1,135 +1,7 @@
 {
- "actualizado": "2026-11-23T22:57:44+00:00",
+ "actualizado": "2026-11-24T15:58:08+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-23",
-   "municipio": "Alcorcón",
-   "lugar": "CES Juan Pablo II FP",
-   "direccion": "C/ Estocolmo, 1",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.3522,
-   "lon": -3.8319,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-23",
-   "municipio": "Humanes de Madrid",
-   "lugar": "Bº Picasso - C/ Vicente Aleixandre",
-   "direccion": "C/ Vicente Aleixandre",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:15",
-     "20:45"
-    ]
-   ],
-   "lat": 40.2587231,
-   "lon": -3.8199964,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-23",
-   "municipio": "Madrid",
-   "lugar": "C/ Embajadores, 72 - Ronda de Valencia, 3",
-   "direccion": "C/ Embajadores, 86-88",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4036126,
-   "lon": -3.7013489,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-23",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-23",
-   "municipio": "Madrid",
-   "lugar": "Institución La Salle",
-   "direccion": "C/ Blas Cabrera, 50",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.3779787,
-   "lon": -3.7746639,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-23",
-   "municipio": "Madrid",
-   "lugar": "Neinver Pio Xii",
-   "direccion": "C/ Memorial 11 de Marzo 2004, esquina C/ Pío XII, 44",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.416782,
-   "lon": -3.703507,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-23",
-   "municipio": "Madrid",
-   "lugar": "Plaza República Dominicana",
-   "direccion": "Plaza República Dominicana, 2",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4583727,
-   "lon": -3.6773716,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-23",
-   "municipio": "Tres Cantos",
-   "lugar": "Avenida Colmenar Viejo",
-   "direccion": "Avenida Colmenar Viejo, esquina C/ Maliciosa",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.6149916,
-   "lon": -3.7114467,
-   "precision": "direccion"
-  },
   {
    "fecha": "2026-11-24",
    "municipio": "Alcobendas",
@@ -142,8 +14,8 @@
      "13:45"
     ]
    ],
-   "lat": 40.5361982,
-   "lon": -3.6257968,
+   "lat": 40.5345513,
+   "lon": -3.6337562,
    "precision": "direccion"
   },
   {
@@ -254,8 +126,8 @@
      "21:00"
     ]
    ],
-   "lat": 40.6149916,
-   "lon": -3.7114467,
+   "lat": 40.6068853,
+   "lon": -3.7159251,
    "precision": "direccion"
   },
   {
