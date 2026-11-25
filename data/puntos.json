@@ -1,135 +1,7 @@
 {
- "actualizado": "2026-11-24T21:34:52+00:00",
+ "actualizado": "2026-11-25T15:44:38+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-24",
-   "municipio": "Alcobendas",
-   "lugar": "Leroy Merlin",
-   "direccion": "Av. de la Vega, 2-4",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "13:45"
-    ]
-   ],
-   "lat": 40.534768,
-   "lon": -3.6312372,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-24",
-   "municipio": "Madrid",
-   "lugar": "C/ Embajadores, 72 - Ronda de Valencia, 3",
-   "direccion": "C/ Embajadores, 88-90",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4036126,
-   "lon": -3.7013489,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-24",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-24",
-   "municipio": "Madrid",
-   "lugar": "Lactalis",
-   "direccion": "C/ Juan de Mariana, 17B",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.3229851,
-   "lon": -3.7664063,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-24",
-   "municipio": "Madrid",
-   "lugar": "Plaza República Dominicana",
-   "direccion": "Plaza República Dominicana, 2",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4583727,
-   "lon": -3.6773716,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-24",
-   "municipio": "Madrid",
-   "lugar": "TRAGSATEC II C/ Julián Camarillo, 6B",
-   "direccion": "C/ Julián Camarillo 6B",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4349177,
-   "lon": -3.6276045,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-24",
-   "municipio": "Pinto",
-   "lugar": "Avenida Antonio López (Mercadona)",
-   "direccion": "Avenida Pintor Antonio López, junto parroquia",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.240985,
-   "lon": -3.7005072,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-24",
-   "municipio": "Tres Cantos",
-   "lugar": "Avenida Colmenar Viejo",
-   "direccion": "Avenida Colmenar Viejo esquina C/ Maliciosa",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.6068853,
-   "lon": -3.7159251,
-   "precision": "direccion"
-  },
   {
    "fecha": "2026-11-25",
    "municipio": "Madrid",
@@ -270,8 +142,8 @@
      "20:15"
     ]
    ],
-   "lat": 40.4508277,
-   "lon": -3.7399764,
+   "lat": 40.448052,
+   "lon": -3.7358808,
    "precision": "direccion"
   },
   {
@@ -696,6 +568,54 @@
    ],
    "lat": 40.3955543,
    "lon": -3.6997728,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-30",
+   "municipio": "Madrid",
+   "lugar": "Colegio Santa Gema",
+   "direccion": "C/ Escalona, 59 junto a Iglesia",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.3958149,
+   "lon": -3.7612302,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-30",
+   "municipio": "Madrid",
+   "lugar": "Jcdecaux",
+   "direccion": "Avenida de Aragón, 328",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4468562,
+   "lon": -3.5479625,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-30",
+   "municipio": "Madrid",
+   "lugar": "Lantania",
+   "direccion": "C/ Sobrado, 2",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.5095797,
+   "lon": -3.6929815,
    "precision": "direccion"
   }
  ]
