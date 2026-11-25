@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T15:44:38+00:00",
+ "actualizado": "2026-11-25T20:42:29+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
   {
@@ -142,8 +142,8 @@
      "20:15"
     ]
    ],
-   "lat": 40.448052,
-   "lon": -3.7358808,
+   "lat": 40.4508277,
+   "lon": -3.7399764,
    "precision": "direccion"
   },
   {
@@ -598,8 +598,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.4468562,
-   "lon": -3.5479625,
+   "lat": 40.4474096,
+   "lon": -3.5506213,
    "precision": "direccion"
   },
   {
