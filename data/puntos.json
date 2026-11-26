@@ -1,151 +1,7 @@
 {
- "actualizado": "2026-11-25T20:42:29+00:00",
+ "actualizado": "2026-11-26T15:26:40+00:00",
  "fuente": "https://donarsangre.sanidadmadrid.org/moviles.aspx",
  "entradas": [
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "C/ Príncipe Carlos, 40 (Metro Blasco Ibáñez)",
-   "direccion": "C/ Príncipe Carlos, 40 frente puerta Gimnasio",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4926999,
-   "lon": -3.6540048,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "Colegio Mayor Santa Maria De Europa",
-   "direccion": "C/ Cea Bermúdez, 17",
-   "tipo": "M",
-   "horarios": [
-    [
-     "15:04",
-     "20:30"
-    ]
-   ],
-   "lat": 40.4387023,
-   "lon": -3.7091954,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "Edificio Iris",
-   "direccion": "C/ Ribera del Loira, 4-6",
-   "tipo": "M",
-   "horarios": [
-    [
-     "09:45",
-     "14:00"
-    ]
-   ],
-   "lat": 40.416782,
-   "lon": -3.703507,
-   "precision": "municipio"
-  },
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "Gran Vía (Red de San Luis)",
-   "direccion": "C/ Gran Vía esq. C/ Montera",
-   "tipo": "M",
-   "horarios": [
-    [
-     "11:00",
-     "20:45"
-    ]
-   ],
-   "lat": 40.42,
-   "lon": -3.7017,
-   "precision": "verificada"
-  },
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "Paseo Alameda de Osuna, 65",
-   "direccion": "C/ Rioja esquina C/ Corbeta, junto Metro donde el Bibliobus",
-   "tipo": "M",
-   "horarios": [
-    [
-     "17:00",
-     "21:00"
-    ]
-   ],
-   "lat": 40.3458276,
-   "lon": -3.827955,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "Plaza República Dominicana",
-   "direccion": "Plaza República Dominicana, 2",
-   "tipo": "M",
-   "horarios": [
-    [
-     "16:45",
-     "21:00"
-    ]
-   ],
-   "lat": 40.4583727,
-   "lon": -3.6773716,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "Seguros Santa Lucia San Máximo",
-   "direccion": "C/ San Máximo, 11",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4321569,
-   "lon": -3.6504569,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "TRAGSATEC II- C/ Julian Camarillo, 6B",
-   "direccion": "C/ Julián Camarillo 6B",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:00",
-     "14:00"
-    ]
-   ],
-   "lat": 40.4349177,
-   "lon": -3.6276045,
-   "precision": "direccion"
-  },
-  {
-   "fecha": "2026-11-25",
-   "municipio": "Madrid",
-   "lugar": "Ucm Veterinaria",
-   "direccion": "Av. Puerta de Hierro, s/n",
-   "tipo": "M",
-   "horarios": [
-    [
-     "10:30",
-     "20:15"
-    ]
-   ],
-   "lat": 40.4508277,
-   "lon": -3.7399764,
-   "precision": "direccion"
-  },
   {
    "fecha": "2026-11-26",
    "municipio": "Madrid",
@@ -573,6 +429,38 @@
   {
    "fecha": "2026-11-30",
    "municipio": "Madrid",
+   "lugar": "Avenida Logroño, 120",
+   "direccion": "Avenida Logroño, 120 junto Farmacia frente Centro de Salud",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4765334,
+   "lon": -3.5821544,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-30",
+   "municipio": "Madrid",
+   "lugar": "Centro Comercial Pasillo Verde",
+   "direccion": "C/ Toledo, 153",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.2837251,
+   "lon": -3.7376197,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-30",
+   "municipio": "Madrid",
    "lugar": "Colegio Santa Gema",
    "direccion": "C/ Escalona, 59 junto a Iglesia",
    "tipo": "M",
@@ -580,11 +468,47 @@
     [
      "10:00",
      "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
     ]
    ],
    "lat": 40.3958149,
    "lon": -3.7612302,
    "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-30",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-11-30",
+   "municipio": "Madrid",
+   "lugar": "Ies Moratalaz",
+   "direccion": "C/ Corregidor Diego Valderrábanos, 35. Salón de Actos antiguo en gimnasio.",
+   "tipo": "S",
+   "horarios": [
+    [
+     "15:45",
+     "20:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
   },
   {
    "fecha": "2026-11-30",
@@ -598,8 +522,8 @@
      "14:00"
     ]
    ],
-   "lat": 40.4474096,
-   "lon": -3.5506213,
+   "lat": 40.4477712,
+   "lon": -3.5441737,
    "precision": "direccion"
   },
   {
@@ -617,6 +541,842 @@
    "lat": 40.5095797,
    "lon": -3.6929815,
    "precision": "direccion"
+  },
+  {
+   "fecha": "2026-11-30",
+   "municipio": "Madrid",
+   "lugar": "Upm Campus Sur",
+   "direccion": "C/ Alan Turing A3- Km6- Campus Sur, junto biblioteca",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ],
+    [
+     "16:00",
+     "20:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-12-01",
+   "municipio": "Alcorcón",
+   "lugar": "Iskay Pet",
+   "direccion": "C/ Estrasburgo, 6 fte trasera de Kiwoco",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.3492998,
+   "lon": -3.8284295,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-12-01",
+   "municipio": "Boadilla del Monte",
+   "lugar": "Boadilla del Monte (varios puntos de c/)",
+   "direccion": "Glorieta Arenas de San Pedro, frente a Biblioteca Princesa Leonor",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4053485,
+   "lon": -3.8764663,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-12-01",
+   "municipio": "Madrid",
+   "lugar": "Colegio Santo Domingo Savio",
+   "direccion": "C/ Santo Domingo El Savio, 2",
+   "tipo": "M",
+   "horarios": [
+    [
+     "09:45",
+     "14:00"
+    ],
+    [
+     "16:45",
+     "21:00"
+    ]
+   ],
+   "lat": 40.416782,
+   "lon": -3.703507,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-12-01",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-01",
+   "municipio": "Madrid",
+   "lugar": "Pº Castellana 106",
+   "direccion": "Pº Castellana 102",
+   "tipo": "M",
+   "horarios": [
+    [
+     "09:45",
+     "14:15"
+    ]
+   ],
+   "lat": 40.4801265,
+   "lon": -3.6857271,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-01",
+   "municipio": "Torrejón de Ardoz",
+   "lugar": "C/ Londres (Prr Sgda F)",
+   "direccion": "C/ Londres, s/n",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.4618579,
+   "lon": -3.4612051,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "Coslada",
+   "lugar": "Coslada-C/ Honduras",
+   "direccion": "Avd. de los Príncipes de España, 45",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:15",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4253465,
+   "lon": -3.5434156,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "Madrid",
+   "lugar": "C/ Alcalá, 339 (Metro Quintana)",
+   "direccion": "C/ Alcalá, 339",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4335554,
+   "lon": -3.6475793,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "Madrid",
+   "lugar": "Ies Magerit",
+   "direccion": "C/ Payaso Fofo, s/n",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:00",
+     "20:00"
+    ]
+   ],
+   "lat": 40.3872176,
+   "lon": -3.6605874,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "Madrid",
+   "lugar": "Padre Piquer Av. 6 (Metro Campamento",
+   "direccion": "Paseo Extremadura 407-409",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3496255,
+   "lon": -3.8315924,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "Madrid",
+   "lugar": "Permira",
+   "direccion": "C/ José Ortega y Gasset, 100",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.5221823,
+   "lon": -4.2492433,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "Madrid",
+   "lugar": "Tesoreria General De La Seguridad Social",
+   "direccion": "C/ Los Astros, 5",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4121112,
+   "lon": -3.6687127,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "Móstoles",
+   "lugar": "Avenida Constitución, 74",
+   "direccion": "Avenida Constitución, 74",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3273927,
+   "lon": -3.8596031,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-02",
+   "municipio": "San Martín de Valdeiglesias",
+   "lugar": "San Martín de Valdeiglesias",
+   "direccion": "Ctra. de Toledo, puerta del Centro de Emergencias",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:45",
+     "20:15"
+    ]
+   ],
+   "lat": 40.3625,
+   "lon": -4.3986503,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Fuenlabrada",
+   "lugar": "C/ Leganés, 41-51",
+   "direccion": "C/ Leganés, 51",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:15",
+     "20:45"
+    ]
+   ],
+   "lat": 40.2926895,
+   "lon": -3.7913572,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Las Rozas de Madrid",
+   "lugar": "Parque Empresarial Las Rozas",
+   "direccion": "Avenida Camilo José Cela, 9",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4933095,
+   "lon": -3.8758396,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Madrid",
+   "lugar": "BANCO SANTANDER- P.º castellana,",
+   "direccion": "P.º Castellana, 24",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4307383,
+   "lon": -3.6882694,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Madrid",
+   "lugar": "C/ López de Hoyos, 89-124-126",
+   "direccion": "C/ López de Hoyos, 132",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4725786,
+   "lon": -3.6492108,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Madrid",
+   "lugar": "C/ Santa Virgilia, esquina C/ Arcos",
+   "direccion": "C/ Santa Virgilia, esquina C/ Arcos",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4762758,
+   "lon": -3.6452243,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Madrid",
+   "lugar": "Iberia Mart",
+   "direccion": "c/ Orense, 41-43",
+   "tipo": "M",
+   "horarios": [
+    [
+     "09:45",
+     "14:15"
+    ]
+   ],
+   "lat": 40.4879592,
+   "lon": -3.3529208,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Madrid",
+   "lugar": "Puerta del Ángel - Pº Extremadura",
+   "direccion": "C/ Caramuel, 7",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4130083,
+   "lon": -3.7268086,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Madrid",
+   "lugar": "Uci Calle Amaltea",
+   "direccion": "C/ Amaltea, 32",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.3952822,
+   "lon": -3.6826428,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Madrid",
+   "lugar": "Wsp",
+   "direccion": "Av. Pio XII, 41",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4719678,
+   "lon": -3.6745912,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-03",
+   "municipio": "Torrejón de Ardoz",
+   "lugar": "Eoi Torrejon",
+   "direccion": "C/ De San Fernando,1",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ],
+    [
+     "16:00",
+     "20:00"
+    ]
+   ],
+   "lat": 40.4616503,
+   "lon": -3.4870116,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Alcorcón",
+   "lugar": "Asociación Parque Lisboa",
+   "direccion": "avda. Lisboa, 15- dentro Club Social Deportivo Pque Lisboa",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3520581,
+   "lon": -3.8221537,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Alcorcón",
+   "lugar": "Avenida de la Libertad (Metro Sur)",
+   "direccion": "Av. de la Libertad, frente a Metro Puerta del Sur",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ],
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3459,
+   "lon": -3.8116,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Fuenlabrada",
+   "lugar": "FUENLABRADA-C.Co Loranca",
+   "direccion": "Avenida Pablo Iglesias esquina C/ Madres de Mayo",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:15",
+     "20:45"
+    ]
+   ],
+   "lat": 40.2997973,
+   "lon": -3.8317034,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Madrid",
+   "lugar": "C/ Amparo Usera, 46",
+   "direccion": "C/ Marcelo Usera, 68-66",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.3879741,
+   "lon": -3.6997807,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Madrid",
+   "lugar": "C/ Monasterio de Arlanza, 20",
+   "direccion": "C/ Monasterio de Arlanza, 20 junto Cc Montecarmelo",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.5104884,
+   "lon": -3.690138,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Madrid",
+   "lugar": "C/ Princesa, 61",
+   "direccion": "C/ Princesa, 61",
+   "tipo": "M",
+   "horarios": [
+    [
+     "09:45",
+     "14:00"
+    ],
+    [
+     "16:45",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4310505,
+   "lon": -3.7167691,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Madrid",
+   "lugar": "Orense",
+   "direccion": "C/ Orense, 16",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:30",
+     "21:15"
+    ]
+   ],
+   "lat": 40.4498,
+   "lon": -3.6949,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Madrid",
+   "lugar": "Palacio de Hielo",
+   "direccion": "C/ Silvano, 77",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "21:00"
+    ]
+   ],
+   "lat": 40.4632,
+   "lon": -3.6373,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-04",
+   "municipio": "Pinto",
+   "lugar": "PINTO-C.Co Plaza Éboli - Avenida Pablo Picasso",
+   "direccion": "Avenida Pablo Picasso esquina Cº de San Antón",
+   "tipo": "M",
+   "horarios": [
+    [
+     "17:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.240985,
+   "lon": -3.7005072,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-12-05",
+   "municipio": "Colmenar de Oreja",
+   "lugar": "Colmenar de Oreja",
+   "direccion": "Glorieta 2 de Mayo, estación de autobuses",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:30"
+    ]
+   ],
+   "lat": 40.1074198,
+   "lon": -3.3871634,
+   "precision": "municipio"
+  },
+  {
+   "fecha": "2026-12-05",
+   "municipio": "Guadalix de la Sierra",
+   "lugar": "Guadalix De La Sierra",
+   "direccion": "Plaza Consistorial",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:30"
+    ]
+   ],
+   "lat": 40.7847211,
+   "lon": -3.6928783,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-05",
+   "municipio": "Madrid",
+   "lugar": "Glorieta de Bilbao (Fuencarral)",
+   "direccion": "C/ Fuencarral, 121",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:15"
+    ]
+   ],
+   "lat": 40.4305,
+   "lon": -3.7033,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-05",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-05",
+   "municipio": "Madrid",
+   "lugar": "Plaza de Santa Cruz",
+   "direccion": "Plaza de Santa Cruz",
+   "tipo": "M",
+   "horarios": [
+    [
+     "09:45",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4150044,
+   "lon": -3.7056328,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-05",
+   "municipio": "Torrelodones",
+   "lugar": "Torrelodones - Colonia",
+   "direccion": "C/ Jesusa Lara, junto Casa de Cultura",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.5790296,
+   "lon": -3.9545805,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-05",
+   "municipio": "Villaconejos",
+   "lugar": "Villaconejos",
+   "direccion": "Pza Mayor Jto Ayto",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:20",
+     "13:30"
+    ]
+   ],
+   "lat": 40.1039906,
+   "lon": -3.4849936,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-06",
+   "municipio": "Campo Real",
+   "lugar": "Campo Real",
+   "direccion": "Plaza Mayor",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:30",
+     "13:30"
+    ]
+   ],
+   "lat": 40.3384592,
+   "lon": -3.3811839,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-06",
+   "municipio": "El Escorial",
+   "lugar": "El Escorial",
+   "direccion": "Plaza España",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:30"
+    ]
+   ],
+   "lat": 40.5847092,
+   "lon": -4.129445,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-06",
+   "municipio": "Madrid",
+   "lugar": "Glorieta de Bilbao (Fuencarral)",
+   "direccion": "C/ Fuencarral, 121",
+   "tipo": "M",
+   "horarios": [
+    [
+     "16:45",
+     "21:15"
+    ]
+   ],
+   "lat": 40.4305,
+   "lon": -3.7033,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-06",
+   "municipio": "Madrid",
+   "lugar": "Gran Vía (Red de San Luis)",
+   "direccion": "C/ Gran Vía esq. C/ Montera",
+   "tipo": "M",
+   "horarios": [
+    [
+     "11:00",
+     "20:45"
+    ]
+   ],
+   "lat": 40.42,
+   "lon": -3.7017,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-06",
+   "municipio": "Morata de Tajuña",
+   "lugar": "Morata de Tajuña",
+   "direccion": "Plaza de la Cultura, junto parada de autobuses",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:04"
+    ]
+   ],
+   "lat": 40.2291265,
+   "lon": -3.4378172,
+   "precision": "direccion"
+  },
+  {
+   "fecha": "2026-12-06",
+   "municipio": "Navacerrada",
+   "lugar": "Paseo de los Españoles",
+   "direccion": "Paseo de los Españoles",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:15",
+     "13:45"
+    ]
+   ],
+   "lat": 40.7284,
+   "lon": -4.016,
+   "precision": "verificada"
+  },
+  {
+   "fecha": "2026-12-06",
+   "municipio": "Pozuelo de Alarcón",
+   "lugar": "Parroquia Anunciación Nuestra Señora",
+   "direccion": "C/ Volturno, 2- Entre biblioteca y guardería. Prado Somosaguas",
+   "tipo": "M",
+   "horarios": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "lat": 40.4346528,
+   "lon": -3.814834,
+   "precision": "municipio"
   }
  ]
 }
